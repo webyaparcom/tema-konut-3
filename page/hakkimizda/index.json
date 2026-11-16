@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Ofis",
+    "en": "Office",
+    "ar": "المكتب"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 1,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "9xe9ea",
+      "ifth2s"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Satış ofisi ekibi ve süreç.",
+    "en": "The sales office team and process.",
+    "ar": "فريق مكتب المبيعات والعملية."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Ofis",
+    "en": "Office",
+    "ar": "المكتب"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-16T20:33:41.660Z",
+  "date": "2026-10-30"
+}

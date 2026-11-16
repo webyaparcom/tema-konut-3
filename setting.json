@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Kademe Teras Konutları: Konyaaltı’nda teraslı konut projesi — rakamlarla proje künyesi, yıl ekseninde inşaat takvimi, puanlı alıcı yorumları ve adım adım satın alma süreci. Demo site; içerik kurgusaldır.",
+    "en": "Kademe Terrace Residences: a terraced housing project in Konyaalti — the project in figures, a construction timeline, rated buyer reviews and a step-by-step purchase process. Demo site; content is fictional.",
+    "ar": "مساكن كاديمه تراس: مشروع سكني بشرفات مدرّجة في كونيالتي — بطاقة المشروع بالأرقام وجدول البناء على محور السنوات وتقييمات المشترين وعملية الشراء خطوة بخطوة. موقع تجريبي؛ المحتوى افتراضي."
+  },
+  "keyword": {
+    "tr": "konut projesi, teraslı daire, Konyaaltı, satılık daire, inşaat takvimi",
+    "en": "housing project, terrace flat, Konyaalti, flats for sale, construction timeline",
+    "ar": "مشروع سكني، شقة بشرفة، كونيالتي، شقق للبيع، جدول البناء"
+  },
+  "category": "Kurumsal",
+  "name": "Kademe Teras",
+  "domain": "konut-3.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "barlow-condensed",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#4FC2A2",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "4px",
+    "--mx-radius-md": "6px",
+    "--mx-radius-lg": "8px",
+    "--mx-radius-xl": "11px"
+  },
+  "icon": "icon.png"
+}

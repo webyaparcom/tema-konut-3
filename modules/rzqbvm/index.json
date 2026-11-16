@@ -1,0 +1,53 @@
+{
+  "name": "Sayaç Kat Planı — oranına göre büyüyen odalar + oda kartı",
+  "description": "Rakamlar mimari bir kat planında oda: kalın duvarlar (koyu zemin aralıkları), kapı açılım yayı, köşede pusula; her odanın genişliği oranına göre büyür (flex), odada ikon, rakam, etiket. Odaya dokununca tarama desenli seçim ve plan altındaki oda kartı değişir (sıra, büyük rakam, etiket, not). JS yoksa tüm kartlar ızgara. sayac-mozaik değişken genişlikli renkli karolar, sayac-bento-karo açılır KPI karoları kurar; bu modül duvar + kapı yayı + pusulalı bir kat planı iskeletidir — oda alanı orana göre büyür, seçim plan altındaki lejant kartını sürer (emlak/iç mimari dili). Sayılar sayfa diliyle biçimlenir (Intl), metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "floor",
+  "category": "stats",
+  "subCategory": "floor-plan",
+  "tags": [
+    "stats",
+    "floor-plan",
+    "rooms",
+    "select",
+    "architecture",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-bg, #ffffff)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+    "kartBg": "var(--mx-site-surface, #f6f7f9)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "bgcolor": "var(--mx-site-bg, #ffffff)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "sayi": "sayı (zorunlu; 1200 · \"4.9\")",
+      "onek": "önek (dil sözlüğü; ör. «%»)",
+      "sonek": "sonek (dil sözlüğü; ör. «+», «/5»)",
+      "etiket": "etiket (dil sözlüğü, zorunlu)",
+      "metin": "kısa not (dil sözlüğü)",
+      "ikon": "Material Symbols adı",
+      "ondalik": "ondalık basamak (yoksa sayıdan)",
+      "max": "oran tavanı (halka/çubuk/dolgu; yoksa % → 100, değilse listedeki en büyük)"
+    }
+  }
+}

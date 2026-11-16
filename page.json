@@ -1,0 +1,138 @@
+{
+  "data": [
+    {
+      "id": "3y1tcni8sf",
+      "name": {
+        "tr": "Proje",
+        "en": "Project",
+        "ar": "المشروع"
+      },
+      "description": {
+        "tr": "İnşaat takvimi, bloklar ve satın alma adımları.",
+        "en": "Construction timeline, blocks and buying steps.",
+        "ar": "جدول البناء والمباني وخطوات الشراء."
+      },
+      "path": "hizmetler",
+      "icon": "apartment",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "v4coog",
+          "1016vz",
+          "ifth2s"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Ofis",
+        "en": "Office",
+        "ar": "المكتب"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "9xe9ea",
+          "ifth2s"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Satış ofisi ekibi ve süreç.",
+        "en": "The sales office team and process.",
+        "ar": "فريق مكتب المبيعات والعملية."
+      }
+    },
+    {
+      "id": "jispmn4ev8",
+      "name": {
+        "tr": "SSS",
+        "en": "FAQ",
+        "ar": "الأسئلة"
+      },
+      "description": {
+        "tr": "Teslim, ödeme ve aidat soruları.",
+        "en": "Questions on handover, payment and service charges.",
+        "ar": "أسئلة عن التسليم والدفع والرسوم."
+      },
+      "path": "sorular",
+      "icon": "help",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "d4nwod"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "2pswtbdzrn",
+      "name": {
+        "tr": "Kanıtlar",
+        "en": "Evidence",
+        "ar": "الشواهد"
+      },
+      "description": {
+        "tr": "Proje rakamları ve puanlı alıcı yorumları (kurgusal).",
+        "en": "Project figures and rated buyer reviews (fictional).",
+        "ar": "أرقام المشروع وتقييمات المشترين (افتراضية)."
+      },
+      "path": "referanslar",
+      "icon": "insights",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "rzqbvm",
+          "bah28x"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 4,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "k971h8"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Satış ofisi adresi, harita ve saatler.",
+        "en": "Sales office address, map and hours.",
+        "ar": "عنوان مكتب المبيعات والخريطة والساعات."
+      }
+    }
+  ],
+  "desc": []
+}

@@ -1,0 +1,125 @@
+<section class="modulex-referans-acilan-panel{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-referans-acilan-panel-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* referans-acilan-panel — referans-cevir-kart ve referans-perde ayrıntıyı karonun kendi alanında açar, referans-vitrin-secim çip + ayrı sahne kullanır; bu modül satırdaki şeritlerin genişliğini yeniden paylaştırır (esnek büyüme, dikey yazı, aria-expanded tetikler) — yatay açılan panel iskeleti ailede yok. */
+  .modulex-referans-acilan-panel { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-referans-acilan-panel *, .modulex-referans-acilan-panel *::before, .modulex-referans-acilan-panel *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-referans-acilan-panel :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-referans-acilan-panel :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-referans-acilan-panel :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-referans-acilan-panel :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-referans-acilan-panel img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-referans-acilan-panel) img { height: auto; }
+  .modulex-referans-acilan-panel [hidden] { display: none !important; }
+  .modulex-referans-acilan-panel :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-referans-acilan-panel :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-referans-acilan-panel-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-referans-acilan-panel-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-referans-acilan-panel--bassiz .modulex-referans-acilan-panel-bas { display: none; }
+  .modulex-referans-acilan-panel-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-referans-acilan-panel-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-referans-acilan-panel-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-referans-acilan-panel-bas { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px 48px; align-items: end; }
+  .modulex-referans-acilan-panel-ust { grid-column: 1 / -1; }
+  .modulex-referans-acilan-panel-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-referans-acilan-panel-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-referans-acilan-panel-dugme:hover { transform: translateY(-2px); }
+  .modulex-referans-acilan-panel-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-referans-acilan-panel-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-referans-acilan-panel-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-referans-acilan-panel-paneller { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .modulex-referans-acilan-panel-pnl { position: relative; overflow: hidden; border: 1px solid --cizgi--; border-radius: --yuvarlak--; background-color: --kartBg--; transition: flex-grow 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease; }
+  .modulex-referans-acilan-panel-tetik { display: flex; align-items: center; gap: 12px; width: 100%; padding: 18px 20px 6px; border: 0; background: transparent; color: inherit; font: inherit; text-align: start; }
+  .modulex-referans-acilan-panel-psira { color: --accentInk--; font-size: 0.8rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .modulex-referans-acilan-panel-padi { min-width: 0; font-family: var(--mx-font-heading, inherit); font-size: 1.15rem; font-weight: 800; line-height: 1.2; }
+  .modulex-referans-acilan-panel-pic { display: grid; align-content: end; gap: 12px; padding: 8px 20px 20px; transition: visibility 0s linear 0.25s; }
+  .modulex-referans-acilan-panel-pust { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; }
+  .modulex-referans-acilan-panel-pamb { display: grid; flex: none; place-items: center; width: 64px; height: 64px; overflow: hidden; border-radius: 16px; background: color-mix(in srgb, --accent-- 16%, --bg--); color: --accentInk--; font-size: 1.3rem; font-weight: 850; }
+  .modulex-referans-acilan-panel-pamb img { width: 100%; height: 100%; padding: 10px; object-fit: contain; }
+  .modulex-referans-acilan-panel-pbilgi { font-size: 0.78rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+  .modulex-referans-acilan-panel-pmetin { max-width: 46ch; color: inherit; font-size: 1rem; line-height: 1.6; }
+  .modulex-referans-acilan-panel-pkisi { font-size: 0.88rem; font-style: italic; }
+  .modulex-referans-acilan-panel-pgit { display: inline-flex; align-items: center; gap: 6px; justify-self: start; min-height: 40px; padding-inline: 16px 12px; border: 2px solid currentColor; border-radius: 999px; color: inherit; font-weight: 800; text-decoration: none; transition: gap 0.25s ease; }
+  .modulex-referans-acilan-panel-pgit:hover { gap: 12px; }
+  .modulex-referans-acilan-panel-pgit .material-symbols-outlined { font-size: 18px; }
+  .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-paneller { display: flex; gap: 8px; height: clamp(380px, 40vw, 460px); }
+  .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pnl { flex: 1 1 0; min-width: 0; }
+  .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pnl:not(.modulex-referans-acilan-panel-pnl--acik):hover { background-color: color-mix(in srgb, --accent-- 12%, --kartBg--); }
+  .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pnl--acik { flex-grow: 6; border-color: transparent; background-color: --vurguBg--; background-image: radial-gradient(circle at var(--cx, 74%) 40%, color-mix(in srgb, --vurguText-- 10%, transparent) 0 70px, transparent 71px 110px, color-mix(in srgb, --vurguText-- 7%, transparent) 111px 112px, transparent 113px 160px, color-mix(in srgb, --vurguText-- 7%, transparent) 161px 162px, transparent 163px); color: --vurguText--; }
+  :is([dir="rtl"]) .modulex-referans-acilan-panel { --cx: 26%; }
+  .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pnl--acik .modulex-referans-acilan-panel-psira { color: inherit; }
+  .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pnl--acik .modulex-referans-acilan-panel-padi { font-size: clamp(1.5rem, 2.4vw, 2.1rem); }
+  .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pnl--acik .modulex-referans-acilan-panel-pamb { background: color-mix(in srgb, --vurguText-- 18%, transparent); color: inherit; }
+  .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pbas { height: 100%; }
+  .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pnl--acik .modulex-referans-acilan-panel-pbas { height: auto; }
+  .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pnl:not(.modulex-referans-acilan-panel-pnl--acik) .modulex-referans-acilan-panel-tetik { justify-content: flex-start; height: 100%; padding: 22px 0; writing-mode: vertical-rl; }
+  .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pnl:not(.modulex-referans-acilan-panel-pnl--acik) .modulex-referans-acilan-panel-padi { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pic { position: absolute; inset-inline: 0; inset-block-end: 0; min-width: 300px; padding: 24px 28px 28px; }
+  .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pnl:not(.modulex-referans-acilan-panel-pnl--acik) .modulex-referans-acilan-panel-pic { visibility: hidden; transition-delay: 0s; }
+  @media (max-width: 768px) {
+    .modulex-referans-acilan-panel-paneller { grid-template-columns: minmax(0, 1fr); }
+    .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-paneller { flex-direction: column; height: auto; }
+    .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pnl { flex: none; }
+    .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pbas { height: auto; }
+    .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pnl:not(.modulex-referans-acilan-panel-pnl--acik) .modulex-referans-acilan-panel-tetik { height: auto; padding: 16px 18px; writing-mode: horizontal-tb; }
+    .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pic { position: static; min-width: 0; padding: 4px 18px 20px; }
+    .modulex-referans-acilan-panel--ajs .modulex-referans-acilan-panel-pnl:not(.modulex-referans-acilan-panel-pnl--acik) .modulex-referans-acilan-panel-pic { display: none; }
+  }
+  .modulex-referans-acilan-panel-logo { display: block; width: auto; max-width: 100%; height: clamp(32px, 4vw, 48px); object-fit: contain; filter: grayscale(1); transition: filter 0.3s ease, transform 0.3s ease; }
+  .modulex-referans-acilan-panel-kelime { display: inline-block; color: --text--; font-family: var(--mx-font-heading, inherit); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; transition: color 0.3s ease; }
+  .modulex-referans-acilan-panel-bag { color: inherit; text-decoration: none; }
+  .modulex-referans-acilan-panel-sektor { color: --accentInk--; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+  .modulex-referans-acilan-panel-kmetin { color: --muted--; font-size: 0.95rem; line-height: 1.65; }
+  .modulex-referans-acilan-panel-yil { color: --muted--; font-size: 0.85rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .modulex-referans-acilan-panel-harf img { width: 100%; height: 100%; object-fit: contain; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-referans-acilan-panel :is(.modulex-referans-acilan-panel-baslik, .modulex-referans-acilan-panel-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-referans-acilan-panel-baslik { line-height: 1.35; }
+  @media (max-width: 1024px) {
+    .modulex-referans-acilan-panel-bas { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (max-width: 768px) {
+    .modulex-referans-acilan-panel { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-referans-acilan-panel *, .modulex-referans-acilan-panel *::before, .modulex-referans-acilan-panel *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-referans-acilan-panel";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const acilanPanel = (s, P) => {
+        const p = [...s.querySelectorAll("[data-ap]")];
+        if (p.length < 2) return;
+        s.classList.add(P + "--ajs");
+        const ac = (el) => p.forEach((x) => {
+          const a = x === el;
+          x.classList.toggle(P + "-pnl--acik", a);
+          const b = x.querySelector("[aria-expanded]");
+          if (b) b.setAttribute("aria-expanded", String(a));
+        });
+        const mq = window.matchMedia ? window.matchMedia("(hover: hover) and (min-width: 769px)") : null;
+        p.forEach((x) => {
+          const b = x.querySelector("[aria-expanded]");
+          if (b) b.addEventListener("click", () => ac(x));
+          x.addEventListener("pointerenter", () => { if (mq && mq.matches) ac(x); });
+        });
+        ac(p.find((x) => x.classList.contains(P + "-pnl--acik")) || p[0]);
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      acilanPanel(s, P, az);
+    });
+  })();
+</script>
