@@ -1,0 +1,41 @@
+{
+  "id": "3y1tcni8sf",
+  "name": {
+    "tr": "Proje",
+    "en": "Project",
+    "ar": "المشروع"
+  },
+  "description": {
+    "tr": "İnşaat takvimi, bloklar ve satın alma adımları.",
+    "en": "Construction timeline, blocks and buying steps.",
+    "ar": "جدول البناء والمباني وخطوات الشراء."
+  },
+  "keyword": {
+    "tr": "Rakamlar",
+    "en": "Figures",
+    "ar": "الأرقام"
+  },
+  "path": "hizmetler",
+  "icon": "apartment",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "v4coog",
+      "1016vz",
+      "ifth2s"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Proje",
+    "en": "Project",
+    "ar": "المشروع"
+  },
+  "date": "2026-11-16T20:28:31.614Z",
+  "update": "2026-11-16T20:33:41.656Z"
+}

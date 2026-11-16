@@ -1,0 +1,40 @@
+{
+  "id": "2pswtbdzrn",
+  "name": {
+    "tr": "Kanıtlar",
+    "en": "Evidence",
+    "ar": "الشواهد"
+  },
+  "description": {
+    "tr": "Proje rakamları ve puanlı alıcı yorumları (kurgusal).",
+    "en": "Project figures and rated buyer reviews (fictional).",
+    "ar": "أرقام المشروع وتقييمات المشترين (افتراضية)."
+  },
+  "keyword": {
+    "tr": "rakam, yorum",
+    "en": "figures, reviews",
+    "ar": "أرقام، تقييمات"
+  },
+  "path": "referanslar",
+  "icon": "insights",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "rzqbvm",
+      "bah28x"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Kanıtlar",
+    "en": "Evidence",
+    "ar": "الشواهد"
+  },
+  "date": "2026-11-16T20:28:31.635Z",
+  "update": "2026-11-16T20:33:41.669Z"
+}

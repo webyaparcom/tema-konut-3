@@ -1,0 +1,39 @@
+{
+  "id": "jispmn4ev8",
+  "name": {
+    "tr": "SSS",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+  },
+  "description": {
+    "tr": "Teslim, ödeme ve aidat soruları.",
+    "en": "Questions on handover, payment and service charges.",
+    "ar": "أسئلة عن التسليم والدفع والرسوم."
+  },
+  "keyword": {
+    "tr": "sss, soru cevap",
+    "en": "faq, questions",
+    "ar": "أسئلة وأجوبة"
+  },
+  "path": "sorular",
+  "icon": "help",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "d4nwod"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "SSS",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+  },
+  "date": "2026-11-16T20:28:31.627Z",
+  "update": "2026-11-16T20:33:41.664Z"
+}

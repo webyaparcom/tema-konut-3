@@ -1,0 +1,46 @@
+{
+  "id": "vizyon",
+  "name": {
+    "tr": "Vizyon",
+    "en": "Vision",
+    "ar": "الرؤية"
+  },
+  "description": {
+    "tr": "Vizyonumuz",
+    "en": "Our vision",
+    "ar": "رؤيتنا"
+  },
+  "keyword": {
+    "tr": "Vizyon",
+    "en": "vision, our vision, goals",
+    "ar": "الرؤية, رؤيتنا, الأهداف"
+  },
+  "path": "vizyon",
+  "icon": "visibility",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {
+    "tr": "<h2>Vizyonumuz</h2>\n<p>Alıcının her ay şantiyeyi fotoğrafla izleyebildiği konut projeleri yapmak.</p>",
+    "en": "<h2>Our vision</h2>\n<p>To build housing projects whose buyers can follow the site in photos every month.</p>",
+    "ar": "<h2>رؤيتنا</h2>\n<p>أن نبني مشاريع سكنية يتابع مشتروها الموقع بالصور كل شهر.</p>"
+  },
+  "title": {
+    "tr": "Vizyon",
+    "en": "Vision",
+    "ar": "الرؤية"
+  },
+  "date": "2026-11-16T20:28:31.457Z",
+  "update": "2026-11-16T20:33:41.682Z",
+  "sablonIzi": "c3ebee5f049bdfb4",
+  "sablonIziDil": {
+    "en": "67bb554c6c4d5984",
+    "ar": "7e4e23377d70548a"
+  }
+}

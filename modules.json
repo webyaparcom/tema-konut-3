@@ -1,0 +1,3037 @@
+{
+  "data": [
+    {
+      "name": "Demo Bandı",
+      "path": "demo-bandi",
+      "local": "header",
+      "category": "demo",
+      "id": "k8db01",
+      "desing": {
+        "tone": "info",
+        "bandBg": "",
+        "bandFg": "",
+        "ctaHref": "https://webyapar.com/temalar",
+        "ariaLabel": {
+          "tr": "Demo site uyarısı",
+          "en": "Demo site notice",
+          "ar": "تنبيه الموقع التجريبي"
+        },
+        "text": {
+          "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
+          "en": "This is a demo site — the content is fictional and no payment is taken",
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
+        },
+        "hataBildir": "https://webyapar.com/api/portal/tema-hata.js"
+      },
+      "version": "1.0.0",
+      "icon": "info",
+      "index": 0
+    },
+    {
+      "name": "Menü 4",
+      "path": "menu-4",
+      "local": "header",
+      "category": "menu",
+      "id": "k8mn01",
+      "desing": {
+        "logo": "logo.png",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "height": "84px",
+        "background-color": "var(--mx-site-bg, #ffffff)",
+        "menubg": "",
+        "menutext": "#fff",
+        "menuhoverbg": "rgba(255,255,255,.18)"
+      },
+      "version": "1.0.0",
+      "icon": "menu",
+      "index": 1
+    },
+    {
+      "name": "Hero 2 (Ortalanmış)",
+      "path": "hero-2",
+      "local": "body",
+      "category": "hero",
+      "id": "k8hr01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "glow1": "rgba(255,255,255,.16)",
+        "glow2": "rgba(255,255,255,.1)",
+        "btnbg": "var(--mx-site-surface, #ffffff)",
+        "btncolor": "var(--mx-site-text, #1b1b1b)",
+        "badge": {
+          "tr": "Emlak",
+          "en": "Real estate",
+          "ar": "عقارات"
+        },
+        "title": {
+          "tr": "Hayalinizdeki yeri birlikte bulalım",
+          "en": "Let's find your dream home together",
+          "ar": "لنجد معًا المكان الذي تحلم به"
+        },
+        "description": {
+          "tr": "Satılık ve kiralık seçkin portföy, şeffaf süreç, her ilanda yetki belgesi numarası.",
+          "en": "A curated sale and rental portfolio, a transparent process, a permit number on every listing.",
+          "ar": "محفظة مختارة للبيع والإيجار وعملية شفافة ورقم ترخيص في كل إعلان."
+        },
+        "btn1Text": {
+          "tr": "İlanları gör",
+          "en": "Browse listings",
+          "ar": "تصفح الإعلانات"
+        },
+        "btn1Url": "ilanlar",
+        "btn2Text": {
+          "tr": "Değerleme",
+          "en": "Valuation",
+          "ar": "التقييم"
+        },
+        "btn2Url": "iletisim"
+      },
+      "version": "1.0.0",
+      "icon": "hero",
+      "index": 2
+    },
+    {
+      "name": "İlan Filtre (Emlak İlan Listesi)",
+      "path": "ilan-filtre",
+      "local": "body",
+      "category": "page-list",
+      "id": "k8il01",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "pageSize": 6,
+        "sort": "date",
+        "urlState": true,
+        "title": {
+          "tr": "Emlak İlanları",
+          "en": "Property Listings",
+          "ar": "إعلانات العقارات"
+        },
+        "subtitle": {
+          "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
+          "en": "Filter, sort and compare properties for sale and for rent.",
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+        },
+        "searchLabel": {
+          "tr": "İlan ara",
+          "en": "Search listings",
+          "ar": "ابحث في الإعلانات"
+        },
+        "searchPlaceholder": {
+          "tr": "Semt veya ilan başlığı…",
+          "en": "District or listing title…",
+          "ar": "الحي أو عنوان الإعلان…"
+        },
+        "dealGroupLabel": {
+          "tr": "İşlem türü",
+          "en": "Deal type",
+          "ar": "نوع الصفقة"
+        },
+        "dealAll": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "dealSale": {
+          "tr": "Satılık",
+          "en": "For sale",
+          "ar": "للبيع"
+        },
+        "dealRent": {
+          "tr": "Kiralık",
+          "en": "For rent",
+          "ar": "للإيجار"
+        },
+        "filtersTitle": {
+          "tr": "Filtreler",
+          "en": "Filters",
+          "ar": "التصفية"
+        },
+        "typeTitle": {
+          "tr": "Emlak türü",
+          "en": "Property type",
+          "ar": "نوع العقار"
+        },
+        "roomsTitle": {
+          "tr": "Oda sayısı",
+          "en": "Rooms",
+          "ar": "عدد الغرف"
+        },
+        "m2Title": {
+          "tr": "Alan (m²)",
+          "en": "Area (m²)",
+          "ar": "المساحة (م²)"
+        },
+        "priceTitle": {
+          "tr": "Fiyat",
+          "en": "Price",
+          "ar": "السعر"
+        },
+        "districtTitle": {
+          "tr": "Semt",
+          "en": "District",
+          "ar": "الحي"
+        },
+        "districtAll": {
+          "tr": "Tüm semtler",
+          "en": "All districts",
+          "ar": "كل الأحياء"
+        },
+        "minLabel": {
+          "tr": "En az",
+          "en": "Min",
+          "ar": "الحد الأدنى"
+        },
+        "maxLabel": {
+          "tr": "En çok",
+          "en": "Max",
+          "ar": "الحد الأقصى"
+        },
+        "m2Unit": {
+          "tr": "m²",
+          "en": "m²",
+          "ar": "م²"
+        },
+        "sortLabel": {
+          "tr": "Sırala",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDate": {
+          "tr": "En yeni",
+          "en": "Newest",
+          "ar": "الأحدث"
+        },
+        "sortPrice": {
+          "tr": "Fiyat: düşükten yükseğe",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yüksekten düşüğe",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortM2": {
+          "tr": "Alan: büyükten küçüğe",
+          "en": "Area: large to small",
+          "ar": "المساحة: من الأكبر إلى الأصغر"
+        },
+        "sortM2Asc": {
+          "tr": "Alan: küçükten büyüğe",
+          "en": "Area: small to large",
+          "ar": "المساحة: من الأصغر إلى الأكبر"
+        },
+        "resetFilters": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "resultCount": {
+          "tr": {
+            "one": "{n} ilan bulundu",
+            "other": "{n} ilan bulundu"
+          },
+          "en": {
+            "one": "{n} listing found",
+            "other": "{n} listings found"
+          },
+          "ar": {
+            "zero": "لم يتم العثور على إعلانات",
+            "one": "تم العثور على إعلان واحد",
+            "two": "تم العثور على إعلانين",
+            "few": "تم العثور على {n} إعلانات",
+            "many": "تم العثور على {n} إعلانًا",
+            "other": "تم العثور على {n} إعلان"
+          }
+        },
+        "photoCount": {
+          "tr": {
+            "one": "{n} fotoğraf",
+            "other": "{n} fotoğraf"
+          },
+          "en": {
+            "one": "{n} photo",
+            "other": "{n} photos"
+          },
+          "ar": {
+            "one": "صورة واحدة",
+            "two": "صورتان",
+            "few": "{n} صور",
+            "many": "{n} صورة",
+            "other": "{n} صورة"
+          }
+        },
+        "noResultTitle": {
+          "tr": "Sonuç bulunamadı",
+          "en": "No results found",
+          "ar": "لم يتم العثور على نتائج"
+        },
+        "noResultText": {
+          "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
+          "en": "Try loosening or clearing your filters.",
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+        },
+        "pagesLabel": {
+          "tr": "Sayfalama",
+          "en": "Pagination",
+          "ar": "التنقل بين الصفحات"
+        },
+        "prevPage": {
+          "tr": "Önceki sayfa",
+          "en": "Previous page",
+          "ar": "الصفحة السابقة"
+        },
+        "nextPage": {
+          "tr": "Sonraki sayfa",
+          "en": "Next page",
+          "ar": "الصفحة التالية"
+        },
+        "pageN": {
+          "tr": "Sayfa {n}",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "permitLabel": {
+          "tr": "Yetki belgesi no",
+          "en": "Authorization certificate no.",
+          "ar": "رقم شهادة التفويض"
+        },
+        "permitDemo": {
+          "tr": "Yetki belgesi no: örnek ilan (DEMO)",
+          "en": "Authorization no.: sample listing (DEMO)",
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+        },
+        "perMonth": {
+          "tr": "/ ay",
+          "en": "/ month",
+          "ar": "/ شهريًا"
+        },
+        "details": {
+          "tr": "İlan detayı",
+          "en": "View listing",
+          "ar": "تفاصيل الإعلان"
+        },
+        "dateLabel": {
+          "tr": "İlan tarihi",
+          "en": "Listed on",
+          "ar": "تاريخ الإعلان"
+        },
+        "demoNote": {
+          "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
+          "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+        }
+      },
+      "version": "1.0.0",
+      "icon": "real_estate_agent",
+      "data": {
+        "facets": [
+          "type",
+          "rooms",
+          "m2",
+          "price",
+          "district"
+        ],
+        "typeLabels": {
+          "daire": {
+            "tr": "Daire",
+            "en": "Apartment",
+            "ar": "شقة"
+          },
+          "villa": {
+            "tr": "Villa",
+            "en": "Villa",
+            "ar": "فيلا"
+          },
+          "rezidans": {
+            "tr": "Rezidans",
+            "en": "Residence",
+            "ar": "مجمّع سكني"
+          },
+          "arsa": {
+            "tr": "Arsa",
+            "en": "Land",
+            "ar": "أرض"
+          },
+          "isyeri": {
+            "tr": "İşyeri",
+            "en": "Commercial",
+            "ar": "محل تجاري"
+          }
+        },
+        "listings": [
+          {
+            "id": "ilan-001",
+            "title": {
+              "tr": "Deniz manzaralı 3+1 daire",
+              "en": "3+1 apartment with sea view",
+              "ar": "شقة 3+1 بإطلالة بحرية"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "3+1",
+            "m2": 142,
+            "price": 6850000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Kadıköy",
+              "en": "Kadikoy",
+              "ar": "قاضي كوي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0001",
+            "url": "",
+            "date": "2026-10-24",
+            "badge": {
+              "tr": "Yeni",
+              "en": "New",
+              "ar": "جديد"
+            }
+          },
+          {
+            "id": "ilan-002",
+            "title": {
+              "tr": "Bahçe katı 2+1 kiralık daire",
+              "en": "2+1 garden-floor apartment for rent",
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 95,
+            "price": 38000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Ankara",
+              "en": "Ankara",
+              "ar": "أنقرة"
+            },
+            "district": {
+              "tr": "Çankaya",
+              "en": "Cankaya",
+              "ar": "تشانكايا"
+            },
+            "img": [],
+            "permitNo": "DEMO-06-0002",
+            "url": "",
+            "date": "2026-10-22"
+          },
+          {
+            "id": "ilan-003",
+            "title": {
+              "tr": "Havuzlu müstakil villa",
+              "en": "Detached villa with pool",
+              "ar": "فيلا مستقلة مع مسبح"
+            },
+            "deal": "sale",
+            "type": "villa",
+            "rooms": "5+2",
+            "m2": 320,
+            "price": 18900000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Muğla",
+              "en": "Mugla",
+              "ar": "موغلا"
+            },
+            "district": {
+              "tr": "Bodrum",
+              "en": "Bodrum",
+              "ar": "بودروم"
+            },
+            "img": [],
+            "permitNo": "DEMO-48-0003",
+            "url": "",
+            "date": "2026-10-18"
+          },
+          {
+            "id": "ilan-004",
+            "title": {
+              "tr": "Eşyalı 1+1 kiralık daire",
+              "en": "Furnished 1+1 apartment for rent",
+              "ar": "شقة 1+1 مفروشة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "1+1",
+            "m2": 55,
+            "price": 22500,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Karşıyaka",
+              "en": "Karsiyaka",
+              "ar": "قارشيياكا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0004",
+            "url": "",
+            "date": "2026-10-15"
+          },
+          {
+            "id": "ilan-005",
+            "title": {
+              "tr": "İmarlı satılık arsa",
+              "en": "Zoned plot for sale",
+              "ar": "أرض مخططة للبيع"
+            },
+            "deal": "sale",
+            "type": "arsa",
+            "rooms": "",
+            "m2": 600,
+            "price": 3200000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Urla",
+              "en": "Urla",
+              "ar": "أورلا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0005",
+            "url": "",
+            "date": "2026-10-11"
+          },
+          {
+            "id": "ilan-006",
+            "title": {
+              "tr": "Cadde üstü kiralık dükkân",
+              "en": "Street-front shop for rent",
+              "ar": "محل على الشارع الرئيسي للإيجار"
+            },
+            "deal": "rent",
+            "type": "isyeri",
+            "rooms": "",
+            "m2": 120,
+            "price": 65000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Şişli",
+              "en": "Sisli",
+              "ar": "شيشلي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0006",
+            "url": "",
+            "date": "2026-10-08"
+          },
+          {
+            "id": "ilan-007",
+            "title": {
+              "tr": "Site içinde 2+1 daire",
+              "en": "2+1 apartment in a gated complex",
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 100,
+            "price": 4150000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Bursa",
+              "en": "Bursa",
+              "ar": "بورصة"
+            },
+            "district": {
+              "tr": "Nilüfer",
+              "en": "Nilufer",
+              "ar": "نيلوفر"
+            },
+            "img": [],
+            "permitNo": "DEMO-16-0007",
+            "url": "",
+            "date": "2026-10-05"
+          },
+          {
+            "id": "ilan-008",
+            "title": {
+              "tr": "Merkezi konumda 1+1 rezidans",
+              "en": "1+1 residence in a central location",
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+            },
+            "deal": "sale",
+            "type": "rezidans",
+            "rooms": "1+1",
+            "m2": 70,
+            "price": 5300000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Beşiktaş",
+              "en": "Besiktas",
+              "ar": "بشيكتاش"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0008",
+            "url": "",
+            "date": "2026-10-02"
+          }
+        ]
+      },
+      "index": 3
+    },
+    {
+      "name": "İstatistik Bandı 1",
+      "path": "stats-1",
+      "local": "body",
+      "category": "stats",
+      "id": "k8st01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "numbercolor": "#ffffff",
+        "labelcolor": "rgba(255,255,255,.88)",
+        "iconsize": "56px",
+        "iconbox": "88px",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "monitoring",
+      "data": [
+        {
+          "number": 150,
+          "suffix": "+",
+          "label": {
+            "tr": "Tamamlanan Proje",
+            "en": "Completed Projects",
+            "ar": "مشروع منجز"
+          },
+          "icon": "task_alt"
+        },
+        {
+          "number": 50,
+          "suffix": "+",
+          "label": {
+            "tr": "Mutlu Müşteri",
+            "en": "Happy Customers",
+            "ar": "عميل سعيد"
+          },
+          "icon": "sentiment_satisfied"
+        },
+        {
+          "number": 10,
+          "suffix": "+",
+          "label": {
+            "tr": "Yıllık Deneyim",
+            "en": "Years of Experience",
+            "ar": "سنوات من الخبرة"
+          },
+          "icon": "workspace_premium"
+        },
+        {
+          "number": 24,
+          "suffix": "/7",
+          "label": {
+            "tr": "Destek",
+            "en": "Support",
+            "ar": "الدعم"
+          },
+          "icon": "support_agent"
+        }
+      ],
+      "index": 4
+    },
+    {
+      "name": "Ekip 1",
+      "path": "team-1",
+      "local": "body",
+      "category": "team",
+      "id": "k8tm01",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "badge": {
+          "tr": "Ekip",
+          "en": "Team",
+          "ar": "الفريق"
+        },
+        "title": {
+          "tr": "Danışmanlarımız",
+          "en": "Our advisors",
+          "ar": "مستشارونا"
+        },
+        "description": {
+          "tr": "Alanında deneyimli ekibimiz projelerinize değer katmak için burada.",
+          "en": "Our experienced team is here to add value to your projects.",
+          "ar": "فريقنا ذو الخبرة هنا ليضيف قيمة إلى مشاريعك."
+        },
+        "accentText": "#ffffff"
+      },
+      "version": "1.0.0",
+      "icon": "groups",
+      "data": [
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Kurucu / CEO",
+            "en": "Founder / CEO",
+            "ar": "المؤسس / الرئيس التنفيذي"
+          },
+          "bio": {
+            "tr": "10+ yıllık sektör deneyimi ile strateji ve yönetim.",
+            "en": "Strategy and management with 10+ years of industry experience.",
+            "ar": "الاستراتيجية والإدارة بخبرة تتجاوز 10 سنوات في القطاع."
+          },
+          "img": ""
+        },
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Tasarım Direktörü",
+            "en": "Design Director",
+            "ar": "مدير التصميم"
+          },
+          "bio": {
+            "tr": "Marka kimliği ve kullanıcı deneyimi tasarımı.",
+            "en": "Brand identity and user experience design.",
+            "ar": "تصميم هوية العلامة التجارية وتجربة المستخدم."
+          },
+          "img": ""
+        },
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Yazılım Geliştirici",
+            "en": "Software Developer",
+            "ar": "مطوّر برمجيات"
+          },
+          "bio": {
+            "tr": "Modern web teknolojileri ile ölçeklenebilir çözümler.",
+            "en": "Scalable solutions with modern web technologies.",
+            "ar": "حلول قابلة للتوسّع بتقنيات الويب الحديثة."
+          },
+          "img": ""
+        }
+      ],
+      "index": 5
+    },
+    {
+      "name": "Footer 3",
+      "path": "footer-3",
+      "local": "footer",
+      "category": "footer",
+      "id": "k8ft01",
+      "desing": {
+        "showlang": true,
+        "bgcolor": "var(--mx-site-surface-2, #f1f1ee)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "minimal_design": true,
+        "social_media": false,
+        "logo_maxh": "60px",
+        "logo_plate": false,
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "data": [],
+      "index": 6
+    },
+    {
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "id": "k8ct01",
+      "desing": {
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "تواصل معنا"
+        },
+        "margin": "30px 0px 30px 0px",
+        "linkcolor": "var(--mx-site-primary, #2563eb)",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "data": [
+        {
+          "icon": "phone",
+          "text": "+90",
+          "url": ""
+        },
+        {
+          "icon": "email",
+          "text": ""
+        },
+        {
+          "icon": "map",
+          "text": ""
+        }
+      ],
+      "index": 7
+    },
+    {
+      "name": "Maps",
+      "path": "map-2",
+      "local": "body",
+      "category": "map",
+      "id": "k8mp01",
+      "desing": {
+        "height": "200px",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "img": "map.png",
+        "externalUrl": "",
+        "margin": "0px 0px 0px 0px"
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "index": 8
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "id": "k8in01",
+      "desing": {
+        "name": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        },
+        "description": {
+          "tr": "Bu sayfa bir tema örneğidir; içerik demo üretiminde doldurulur.",
+          "en": "This page is a theme sample; its content is filled in during demo production.",
+          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي."
+        },
+        "name2": {
+          "tr": "Vizyonumuz",
+          "en": "Our Vision",
+          "ar": "رؤيتنا"
+        },
+        "spot2": {
+          "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
+          "en": "To lead our industry with innovative approaches.",
+          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة."
+        },
+        "icon2": "visibility",
+        "name3": {
+          "tr": "Misyonumuz",
+          "en": "Our Mission",
+          "ar": "مهمتنا"
+        },
+        "spot3": {
+          "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
+          "en": "Deliver needed solutions quickly and transparently.",
+          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية."
+        },
+        "icon3": "flag",
+        "img": "index.jpg",
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Kurumsal",
+          "en": "Corporate",
+          "ar": "المؤسسة"
+        },
+        "stil": ""
+      },
+      "version": "1.1.0",
+      "icon": "business",
+      "index": 9
+    },
+    {
+      "name": "İlan Filtre (Emlak İlan Listesi)",
+      "path": "ilan-filtre",
+      "local": "body",
+      "category": "page-list",
+      "id": "k8il02",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "pageSize": 6,
+        "sort": "date",
+        "urlState": true,
+        "title": {
+          "tr": "Emlak İlanları",
+          "en": "Property Listings",
+          "ar": "إعلانات العقارات"
+        },
+        "subtitle": {
+          "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
+          "en": "Filter, sort and compare properties for sale and for rent.",
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+        },
+        "searchLabel": {
+          "tr": "İlan ara",
+          "en": "Search listings",
+          "ar": "ابحث في الإعلانات"
+        },
+        "searchPlaceholder": {
+          "tr": "Semt veya ilan başlığı…",
+          "en": "District or listing title…",
+          "ar": "الحي أو عنوان الإعلان…"
+        },
+        "dealGroupLabel": {
+          "tr": "İşlem türü",
+          "en": "Deal type",
+          "ar": "نوع الصفقة"
+        },
+        "dealAll": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "dealSale": {
+          "tr": "Satılık",
+          "en": "For sale",
+          "ar": "للبيع"
+        },
+        "dealRent": {
+          "tr": "Kiralık",
+          "en": "For rent",
+          "ar": "للإيجار"
+        },
+        "filtersTitle": {
+          "tr": "Filtreler",
+          "en": "Filters",
+          "ar": "التصفية"
+        },
+        "typeTitle": {
+          "tr": "Emlak türü",
+          "en": "Property type",
+          "ar": "نوع العقار"
+        },
+        "roomsTitle": {
+          "tr": "Oda sayısı",
+          "en": "Rooms",
+          "ar": "عدد الغرف"
+        },
+        "m2Title": {
+          "tr": "Alan (m²)",
+          "en": "Area (m²)",
+          "ar": "المساحة (م²)"
+        },
+        "priceTitle": {
+          "tr": "Fiyat",
+          "en": "Price",
+          "ar": "السعر"
+        },
+        "districtTitle": {
+          "tr": "Semt",
+          "en": "District",
+          "ar": "الحي"
+        },
+        "districtAll": {
+          "tr": "Tüm semtler",
+          "en": "All districts",
+          "ar": "كل الأحياء"
+        },
+        "minLabel": {
+          "tr": "En az",
+          "en": "Min",
+          "ar": "الحد الأدنى"
+        },
+        "maxLabel": {
+          "tr": "En çok",
+          "en": "Max",
+          "ar": "الحد الأقصى"
+        },
+        "m2Unit": {
+          "tr": "m²",
+          "en": "m²",
+          "ar": "م²"
+        },
+        "sortLabel": {
+          "tr": "Sırala",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDate": {
+          "tr": "En yeni",
+          "en": "Newest",
+          "ar": "الأحدث"
+        },
+        "sortPrice": {
+          "tr": "Fiyat: düşükten yükseğe",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yüksekten düşüğe",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortM2": {
+          "tr": "Alan: büyükten küçüğe",
+          "en": "Area: large to small",
+          "ar": "المساحة: من الأكبر إلى الأصغر"
+        },
+        "sortM2Asc": {
+          "tr": "Alan: küçükten büyüğe",
+          "en": "Area: small to large",
+          "ar": "المساحة: من الأصغر إلى الأكبر"
+        },
+        "resetFilters": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "resultCount": {
+          "tr": {
+            "one": "{n} ilan bulundu",
+            "other": "{n} ilan bulundu"
+          },
+          "en": {
+            "one": "{n} listing found",
+            "other": "{n} listings found"
+          },
+          "ar": {
+            "zero": "لم يتم العثور على إعلانات",
+            "one": "تم العثور على إعلان واحد",
+            "two": "تم العثور على إعلانين",
+            "few": "تم العثور على {n} إعلانات",
+            "many": "تم العثور على {n} إعلانًا",
+            "other": "تم العثور على {n} إعلان"
+          }
+        },
+        "photoCount": {
+          "tr": {
+            "one": "{n} fotoğraf",
+            "other": "{n} fotoğraf"
+          },
+          "en": {
+            "one": "{n} photo",
+            "other": "{n} photos"
+          },
+          "ar": {
+            "one": "صورة واحدة",
+            "two": "صورتان",
+            "few": "{n} صور",
+            "many": "{n} صورة",
+            "other": "{n} صورة"
+          }
+        },
+        "noResultTitle": {
+          "tr": "Sonuç bulunamadı",
+          "en": "No results found",
+          "ar": "لم يتم العثور على نتائج"
+        },
+        "noResultText": {
+          "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
+          "en": "Try loosening or clearing your filters.",
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+        },
+        "pagesLabel": {
+          "tr": "Sayfalama",
+          "en": "Pagination",
+          "ar": "التنقل بين الصفحات"
+        },
+        "prevPage": {
+          "tr": "Önceki sayfa",
+          "en": "Previous page",
+          "ar": "الصفحة السابقة"
+        },
+        "nextPage": {
+          "tr": "Sonraki sayfa",
+          "en": "Next page",
+          "ar": "الصفحة التالية"
+        },
+        "pageN": {
+          "tr": "Sayfa {n}",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "permitLabel": {
+          "tr": "Yetki belgesi no",
+          "en": "Authorization certificate no.",
+          "ar": "رقم شهادة التفويض"
+        },
+        "permitDemo": {
+          "tr": "Yetki belgesi no: örnek ilan (DEMO)",
+          "en": "Authorization no.: sample listing (DEMO)",
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+        },
+        "perMonth": {
+          "tr": "/ ay",
+          "en": "/ month",
+          "ar": "/ شهريًا"
+        },
+        "details": {
+          "tr": "İlan detayı",
+          "en": "View listing",
+          "ar": "تفاصيل الإعلان"
+        },
+        "dateLabel": {
+          "tr": "İlan tarihi",
+          "en": "Listed on",
+          "ar": "تاريخ الإعلان"
+        },
+        "demoNote": {
+          "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
+          "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+        }
+      },
+      "version": "1.0.0",
+      "icon": "real_estate_agent",
+      "data": {
+        "facets": [
+          "type",
+          "rooms",
+          "m2",
+          "price",
+          "district"
+        ],
+        "typeLabels": {
+          "daire": {
+            "tr": "Daire",
+            "en": "Apartment",
+            "ar": "شقة"
+          },
+          "villa": {
+            "tr": "Villa",
+            "en": "Villa",
+            "ar": "فيلا"
+          },
+          "rezidans": {
+            "tr": "Rezidans",
+            "en": "Residence",
+            "ar": "مجمّع سكني"
+          },
+          "arsa": {
+            "tr": "Arsa",
+            "en": "Land",
+            "ar": "أرض"
+          },
+          "isyeri": {
+            "tr": "İşyeri",
+            "en": "Commercial",
+            "ar": "محل تجاري"
+          }
+        },
+        "listings": [
+          {
+            "id": "ilan-001",
+            "title": {
+              "tr": "Deniz manzaralı 3+1 daire",
+              "en": "3+1 apartment with sea view",
+              "ar": "شقة 3+1 بإطلالة بحرية"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "3+1",
+            "m2": 142,
+            "price": 6850000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Kadıköy",
+              "en": "Kadikoy",
+              "ar": "قاضي كوي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0001",
+            "url": "",
+            "date": "2026-10-24",
+            "badge": {
+              "tr": "Yeni",
+              "en": "New",
+              "ar": "جديد"
+            }
+          },
+          {
+            "id": "ilan-002",
+            "title": {
+              "tr": "Bahçe katı 2+1 kiralık daire",
+              "en": "2+1 garden-floor apartment for rent",
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 95,
+            "price": 38000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Ankara",
+              "en": "Ankara",
+              "ar": "أنقرة"
+            },
+            "district": {
+              "tr": "Çankaya",
+              "en": "Cankaya",
+              "ar": "تشانكايا"
+            },
+            "img": [],
+            "permitNo": "DEMO-06-0002",
+            "url": "",
+            "date": "2026-10-22"
+          },
+          {
+            "id": "ilan-003",
+            "title": {
+              "tr": "Havuzlu müstakil villa",
+              "en": "Detached villa with pool",
+              "ar": "فيلا مستقلة مع مسبح"
+            },
+            "deal": "sale",
+            "type": "villa",
+            "rooms": "5+2",
+            "m2": 320,
+            "price": 18900000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Muğla",
+              "en": "Mugla",
+              "ar": "موغلا"
+            },
+            "district": {
+              "tr": "Bodrum",
+              "en": "Bodrum",
+              "ar": "بودروم"
+            },
+            "img": [],
+            "permitNo": "DEMO-48-0003",
+            "url": "",
+            "date": "2026-10-18"
+          },
+          {
+            "id": "ilan-004",
+            "title": {
+              "tr": "Eşyalı 1+1 kiralık daire",
+              "en": "Furnished 1+1 apartment for rent",
+              "ar": "شقة 1+1 مفروشة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "1+1",
+            "m2": 55,
+            "price": 22500,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Karşıyaka",
+              "en": "Karsiyaka",
+              "ar": "قارشيياكا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0004",
+            "url": "",
+            "date": "2026-10-15"
+          },
+          {
+            "id": "ilan-005",
+            "title": {
+              "tr": "İmarlı satılık arsa",
+              "en": "Zoned plot for sale",
+              "ar": "أرض مخططة للبيع"
+            },
+            "deal": "sale",
+            "type": "arsa",
+            "rooms": "",
+            "m2": 600,
+            "price": 3200000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Urla",
+              "en": "Urla",
+              "ar": "أورلا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0005",
+            "url": "",
+            "date": "2026-10-11"
+          },
+          {
+            "id": "ilan-006",
+            "title": {
+              "tr": "Cadde üstü kiralık dükkân",
+              "en": "Street-front shop for rent",
+              "ar": "محل على الشارع الرئيسي للإيجار"
+            },
+            "deal": "rent",
+            "type": "isyeri",
+            "rooms": "",
+            "m2": 120,
+            "price": 65000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Şişli",
+              "en": "Sisli",
+              "ar": "شيشلي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0006",
+            "url": "",
+            "date": "2026-10-08"
+          },
+          {
+            "id": "ilan-007",
+            "title": {
+              "tr": "Site içinde 2+1 daire",
+              "en": "2+1 apartment in a gated complex",
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 100,
+            "price": 4150000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Bursa",
+              "en": "Bursa",
+              "ar": "بورصة"
+            },
+            "district": {
+              "tr": "Nilüfer",
+              "en": "Nilufer",
+              "ar": "نيلوفر"
+            },
+            "img": [],
+            "permitNo": "DEMO-16-0007",
+            "url": "",
+            "date": "2026-10-05"
+          },
+          {
+            "id": "ilan-008",
+            "title": {
+              "tr": "Merkezi konumda 1+1 rezidans",
+              "en": "1+1 residence in a central location",
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+            },
+            "deal": "sale",
+            "type": "rezidans",
+            "rooms": "1+1",
+            "m2": 70,
+            "price": 5300000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Beşiktaş",
+              "en": "Besiktas",
+              "ar": "بشيكتاش"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0008",
+            "url": "",
+            "date": "2026-10-02"
+          }
+        ]
+      },
+      "index": 10
+    },
+    {
+      "name": "Demo Kredi Şeridi",
+      "description": "Demo sitelerin alt bilgisinde duran kredi şeridi: «Bu demo Webyapar tarafından hazırlanmıştır — Bu temayı iste». Marka adı çevrilmez (Latin, dir=ltr izole), bağlantı demo adına göre webyapar.com/temalar#<slug>. Üç dil (TR/EN/AR), mantıksal CSS (RTL), mobilde sarar, reduced-motion'a saygılı.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "footer",
+        "kredi",
+        "rtl"
+      ],
+      "desing": {
+        "href": "https://webyapar.com/temalar#konut-3",
+        "brand": "Webyapar",
+        "text": {
+          "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
+          "en": "This demo was prepared by {brand} —",
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "ariaLabel": {
+          "tr": "Demo bilgisi",
+          "en": "Demo credit",
+          "ar": "معلومات العرض التجريبي"
+        }
+      },
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "0ot0qe",
+      "path": "demo-kredi",
+      "local": "footer",
+      "data": [],
+      "index": 11
+    },
+    {
+      "name": "Üst Çizgi Düğüm — sayfalar bir hat üzerinde duraklar",
+      "description": "Logo ile düğme arasında yatay bir hat; her sayfa hattın üstünde yuvarlak bir durak, adı durağın altında. Hat etkin sayfaya kadar vurgu rengiyle dolu (geçilen duraklar dolu nokta), etkin durak kalın halkalı ve nabız atar; üzerine gelinen durak büyür. Dar ekranda açılır listede aynı hat dikey iner. Menü bir metro/yol haritası: öğeler ayrı bağlantılar değil, tek hat üzerindeki duraklar ve hat konumu gösterir (ok zincirinin dolu bloklarından farklı, ince çizgi + düğüm). Sayfalar site sayfalarından, dil seçici {{langbar}}, logo {{logo}}. Mobil menü erişilebilir (aria-expanded, Esc, odak). Renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
+      "version": "1.0.0",
+      "icon": "commit",
+      "category": "menu",
+      "subCategory": "metro-line",
+      "tags": [
+        "menu",
+        "metro",
+        "nodes",
+        "timeline",
+        "progress",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "0px",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "cta_ad": {
+          "tr": "Satış ofisi",
+          "en": "Sales office",
+          "ar": "مكتب المبيعات"
+        },
+        "cta_url": "iletisim",
+        "tel": "+90 242 055 80 80",
+        "logoimg": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "logoH": "44px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "logo_acik": "logo-acik.svg",
+        "logo_h": "44px",
+        "cta": {
+          "tr": "Satış ofisi",
+          "en": "Sales office",
+          "ar": "مكتب المبيعات"
+        }
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "name": "ek bağlantı adı (dil sözlüğü)",
+          "url": "iç yol ya da dış adres (dış adres yeni sekmede)"
+        }
+      },
+      "id": "kqehpt",
+      "path": "ust-cizgi-dugum",
+      "local": "header",
+      "index": 12
+    },
+    {
+      "name": "Sayaç Kat Planı — oranına göre büyüyen odalar + oda kartı",
+      "description": "Rakamlar mimari bir kat planında oda: kalın duvarlar (koyu zemin aralıkları), kapı açılım yayı, köşede pusula; her odanın genişliği oranına göre büyür (flex), odada ikon, rakam, etiket. Odaya dokununca tarama desenli seçim ve plan altındaki oda kartı değişir (sıra, büyük rakam, etiket, not). JS yoksa tüm kartlar ızgara. sayac-mozaik değişken genişlikli renkli karolar, sayac-bento-karo açılır KPI karoları kurar; bu modül duvar + kapı yayı + pusulalı bir kat planı iskeletidir — oda alanı orana göre büyür, seçim plan altındaki lejant kartını sürer (emlak/iç mimari dili). Sayılar sayfa diliyle biçimlenir (Intl), metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "floor",
+      "category": "stats",
+      "subCategory": "floor-plan",
+      "tags": [
+        "stats",
+        "floor-plan",
+        "rooms",
+        "select",
+        "architecture",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Konut projesi · Konyaaltı, Antalya",
+          "en": "Housing project · Konyaalti, Antalya",
+          "ar": "مشروع سكني · كونيالتي، أنطاليا"
+        },
+        "baslik": {
+          "tr": "Kademe Teras rakamlarla: dört blok, her daireye teras",
+          "en": "Kademe Terrace in figures: four blocks, a terrace for every flat",
+          "ar": "كاديمه تراس بالأرقام: أربعة مبانٍ وشرفة لكل شقة"
+        },
+        "metin": {
+          "tr": "Odalara dokunun; her oda projenin bir sayısı, büyüklüğü sayının oranıyla büyür. Sayılar kurgusal proje künyesidir; fiyat, müsaitlik ve teslim tarihi satış ofisinden yazılı alınır.",
+          "en": "Tap the rooms; each room is one of the project’s figures and grows with its ratio. Figures are a fictional project profile; prices, availability and handover dates are given in writing by the sales office.",
+          "ar": "المس الغرف؛ كل غرفة رقم من أرقام المشروع، وتكبر بحسب نسبته. الأرقام بطاقة مشروع افتراضية؛ وتُقدَّم الأسعار والتوفّر وموعد التسليم كتابيًا من مكتب المبيعات."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "title": "",
+        "description": ""
+      },
+      "data": [
+        {
+          "sayi": 212,
+          "etiket": {
+            "tr": "daire",
+            "en": "flats",
+            "ar": "شقة"
+          },
+          "ikon": "apartment",
+          "metin": {
+            "tr": "1+1’den 4+1’e, dört blokta.",
+            "en": "From 1+1 to 4+1, in four blocks.",
+            "ar": "من 1+1 إلى 4+1 في أربعة مبانٍ."
+          }
+        },
+        {
+          "sayi": 9600,
+          "etiket": {
+            "tr": "bahçe ve yeşil alan",
+            "en": "garden and green space",
+            "ar": "حديقة ومساحات خضراء"
+          },
+          "sonek": {
+            "tr": " m²",
+            "en": " m²",
+            "ar": " م²"
+          },
+          "ikon": "park",
+          "max": 15000,
+          "metin": {
+            "tr": "Parselin yarısından fazlası bahçe ve yürüyüş yolu.",
+            "en": "More than half the plot is garden and footpaths.",
+            "ar": "أكثر من نصف القطعة حديقة وممرات مشاة."
+          }
+        },
+        {
+          "sayi": 18,
+          "etiket": {
+            "tr": "ortalama teras",
+            "en": "average terrace",
+            "ar": "متوسط الشرفة"
+          },
+          "sonek": {
+            "tr": " m²",
+            "en": " m²",
+            "ar": " م²"
+          },
+          "ikon": "deck",
+          "max": 40,
+          "metin": {
+            "tr": "Kademeli cephe sayesinde her dairenin terası güneye bakar.",
+            "en": "Thanks to the stepped facade, every terrace faces south.",
+            "ar": "بفضل الواجهة المدرّجة تطلّ كل شرفة على الجنوب."
+          }
+        },
+        {
+          "sayi": 900,
+          "etiket": {
+            "tr": "denize uzaklık",
+            "en": "distance to the sea",
+            "ar": "المسافة إلى البحر"
+          },
+          "sonek": {
+            "tr": " m",
+            "en": " m",
+            "ar": " م"
+          },
+          "ikon": "beach_access",
+          "max": 2000,
+          "metin": {
+            "tr": "Konyaaltı sahiline yürüyerek yaklaşık 12 dakika.",
+            "en": "About a 12-minute walk to Konyaalti beach.",
+            "ar": "نحو 12 دقيقة سيرًا إلى شاطئ كونيالتي."
+          }
+        },
+        {
+          "sayi": 11,
+          "etiket": {
+            "tr": "kaba inşaatı biten kat",
+            "en": "floors with the shell finished",
+            "ar": "طوابق اكتمل هيكلها"
+          },
+          "sonek": {
+            "tr": " / 26",
+            "en": " / 26",
+            "ar": " / 26"
+          },
+          "ikon": "construction",
+          "max": 26,
+          "metin": {
+            "tr": "Kasım 2026 aylık raporuna göre, dört blokta toplam 26 kattan (kurgusal).",
+            "en": "According to the November 2026 monthly report, out of 26 floors across four blocks (fictional).",
+            "ar": "وفق التقرير الشهري لنوفمبر 2026، من أصل 26 طابقًا في المباني الأربعة (افتراضي)."
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "sayi": "sayı (zorunlu; 1200 · \"4.9\")",
+          "onek": "önek (dil sözlüğü; ör. «%»)",
+          "sonek": "sonek (dil sözlüğü; ör. «+», «/5»)",
+          "etiket": "etiket (dil sözlüğü, zorunlu)",
+          "metin": "kısa not (dil sözlüğü)",
+          "ikon": "Material Symbols adı",
+          "ondalik": "ondalık basamak (yoksa sayıdan)",
+          "max": "oran tavanı (halka/çubuk/dolgu; yoksa % → 100, değilse listedeki en büyük)"
+        }
+      },
+      "id": "rzqbvm",
+      "path": "sayac-kat-plani",
+      "local": "body",
+      "index": 13
+    },
+    {
+      "name": "Ekip Destesi — üst üste kartvizitler, sıradaki öne gelir",
+      "description": "Ekip üst üste dizilmiş yatay kartvizit destesi: üstteki kart tam görünür (portre, bölüm, ad, unvan, kısa tanıtım, yazılı iletişim), arkadaki üç kart kademeli kenar verir. Sonraki düğmesi / → tuşu üstteki kartı yana atıp destenin altına sokar, önceki alttakini öne alır; «1 / 5» sayacı. JS yoksa kartlar iki sütun ızgara. Tek odaklı deste etkileşimi: ekip-kartvizit tüm kartları ızgarada aynı anda gösterir, ekip-portre-ray yatay kaydırır; burada kartlar aynı ızgara hücresinde z-ekseninde yığılır, yalnız üstteki etkileşimlidir (arkadakiler inert) — kişisel marka / kurucu ekip tanıtımında bir kişiye tam dikkat. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "style",
+      "category": "team",
+      "subCategory": "card-stack",
+      "tags": [
+        "team",
+        "card-stack",
+        "deck",
+        "business-card",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Satış ofisi",
+          "en": "Sales office",
+          "ar": "مكتب المبيعات"
+        },
+        "baslik": {
+          "tr": "Sorularınızı karşılayan ekip",
+          "en": "The team that answers your questions",
+          "ar": "الفريق الذي يجيب عن أسئلتك"
+        },
+        "metin": {
+          "tr": "Kartları çevirin; kurgusal profiller, portre kullanılmaz.",
+          "en": "Flip through the cards; fictional profiles, no portraits are used.",
+          "ar": "تصفّح البطاقات؛ ملفات افتراضية ولا تُستخدم صور شخصية."
+        },
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "badge": "",
+        "title": "",
+        "description": ""
+      },
+      "data": [
+        {
+          "ad": "Ozan Kademe",
+          "unvan": {
+            "tr": "Satış ofisi sorumlusu",
+            "en": "Sales office lead",
+            "ar": "مسؤول مكتب المبيعات"
+          },
+          "bolum": {
+            "tr": "Satış",
+            "en": "Sales",
+            "ar": "المبيعات"
+          },
+          "metin": {
+            "tr": "Daire seçimi ve ödeme tablosu görüşmeleri (kurgusal profil).",
+            "en": "Flat selection and payment-table meetings (fictional profile).",
+            "ar": "لقاءات اختيار الشقة وجدول الدفع (ملف افتراضي)."
+          }
+        },
+        {
+          "ad": "Melis Tan",
+          "unvan": {
+            "tr": "Mimar",
+            "en": "Architect",
+            "ar": "مهندسة معمارية"
+          },
+          "bolum": {
+            "tr": "Proje",
+            "en": "Design",
+            "ar": "التصميم"
+          },
+          "metin": {
+            "tr": "Kat planı ve teras yönleri; örnek dairede cumartesi (kurgusal profil).",
+            "en": "Floor plans and terrace orientation; at the show flat on Saturdays (fictional profile).",
+            "ar": "مخططات الطوابق واتجاه الشرفات؛ في الشقة النموذجية أيام السبت (ملف افتراضي)."
+          }
+        },
+        {
+          "ad": "Kerem Aksu",
+          "unvan": {
+            "tr": "Şantiye şefi",
+            "en": "Site manager",
+            "ar": "رئيس الموقع"
+          },
+          "bolum": {
+            "tr": "Şantiye",
+            "en": "Site",
+            "ar": "الموقع"
+          },
+          "metin": {
+            "tr": "Aylık ilerleme raporu ve şantiye gezisi (kurgusal profil).",
+            "en": "Monthly progress report and site tours (fictional profile).",
+            "ar": "تقرير التقدّم الشهري وجولات الموقع (ملف افتراضي)."
+          }
+        },
+        {
+          "ad": "Derya Aral",
+          "unvan": {
+            "tr": "Alıcı ilişkileri",
+            "en": "Buyer relations",
+            "ar": "علاقات المشترين"
+          },
+          "bolum": {
+            "tr": "Satış sonrası",
+            "en": "After sales",
+            "ar": "ما بعد البيع"
+          },
+          "metin": {
+            "tr": "Sözleşme sonrası belge ve teslim takibi (kurgusal profil).",
+            "en": "Post-contract documents and handover follow-up (fictional profile).",
+            "ar": "متابعة المستندات والتسليم بعد العقد (ملف افتراضي)."
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "ad": "ad soyad (zorunlu; düz metin ya da dil sözlüğü)",
+          "unvan": "görev / unvan (dil sözlüğü)",
+          "metin": "kısa tanıtım (dil sözlüğü)",
+          "img": "portre görseli (yoksa baş harfler)",
+          "bolum": "bölüm (dil sözlüğü ya da desing.departments id'si)",
+          "eposta": "e-posta (mailto)",
+          "telefon": "telefon (tel:)",
+          "url": "profil sayfası bağlantısı",
+          "social": "[{ ad, url (http(s)/mailto/tel), ikon (Material Symbols) }]"
+        }
+      },
+      "id": "9xe9ea",
+      "path": "ekip-deste",
+      "local": "body",
+      "index": 14
+    },
+    {
+      "name": "Yorum Kriter Puanı — her yorumda halka genel puan ve kriter çubukları",
+      "description": "Her yorum bir puan kartı: tepede halka göstergede genel puan (kriter ortalaması, yoksa `puan`; sayfa diliyle ondalık) ve kişi; altında `kriter` listesi (temizlik, personel, ortam …) her biri dolan çubuk + değer; ardından başlık ve yorum. Çubuklar görünür olunca dolar. Kriter yoksa yalnız halka ve yorum. Çok boyutlu değerlendirme: yorum-puan-dagilim tüm yorumların yıldızını tek özette toplar, burada her yorum kendi kriter kırılımını (dl tablosu) taşır; yıldız sırası yerine halka gösterge (conic-gradient) ve yatay çubuklar. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "fact_check",
+      "category": "testimonial",
+      "subCategory": "criteria-scorecard",
+      "tags": [
+        "testimonial",
+        "criteria",
+        "scorecard",
+        "rating",
+        "bars",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Kanıtlar",
+          "en": "Evidence",
+          "ar": "الشواهد"
+        },
+        "baslik": {
+          "tr": "Alıcılar dört ölçüte puan verdi",
+          "en": "Buyers rated four criteria",
+          "ar": "قيّم المشترون أربعة معايير"
+        },
+        "metin": {
+          "tr": "Kurgusal demo yorumlar; puanlar örnektir ve bir satış vaadi değildir.",
+          "en": "Fictional demo reviews; the scores are examples, not a sales promise.",
+          "ar": "تقييمات تجريبية افتراضية؛ الدرجات أمثلة وليست وعدًا بيعيًا."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "yildiz": "color-mix(in srgb, var(--mx-color-warning, #d97706) 78%, var(--mx-site-text, #111318))",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "badge": "",
+        "title": "",
+        "description": ""
+      },
+      "data": [
+        {
+          "ad": "Sena Ilgaz",
+          "unvan": {
+            "tr": "B Blok · 2+1 alıcısı",
+            "en": "Block B · 2+1 buyer",
+            "ar": "مشترية في المبنى B · 2+1"
+          },
+          "baslik": {
+            "tr": "Raporlar düzenli geliyor",
+            "en": "The reports arrive regularly",
+            "ar": "التقارير تصل بانتظام"
+          },
+          "metin": {
+            "tr": "Her ay şantiye fotoğrafları geldi; bir ay gecikme olduğunda nedenini de yazdılar.",
+            "en": "Site photos came every month; when a month slipped, they wrote why.",
+            "ar": "وصلت صور الموقع كل شهر، وحين تأخّر شهر كتبوا السبب."
+          },
+          "tarih": {
+            "tr": "Ekim 2026",
+            "en": "October 2026",
+            "ar": "أكتوبر 2026"
+          },
+          "kriter": [
+            {
+              "ad": {
+                "tr": "Bilgilendirme",
+                "en": "Updates",
+                "ar": "الإعلام"
+              },
+              "puan": 5
+            },
+            {
+              "ad": {
+                "tr": "Plan",
+                "en": "Layout",
+                "ar": "المخطط"
+              },
+              "puan": 4.5
+            },
+            {
+              "ad": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "puan": 4.5
+            },
+            {
+              "ad": {
+                "tr": "Ofis",
+                "en": "Office",
+                "ar": "المكتب"
+              },
+              "puan": 4
+            }
+          ]
+        },
+        {
+          "ad": "Tolga Er",
+          "unvan": {
+            "tr": "C Blok · 3+1 alıcısı",
+            "en": "Block C · 3+1 buyer",
+            "ar": "مشترٍ في المبنى C · 3+1"
+          },
+          "baslik": {
+            "tr": "Teras ölçüsü planla aynı",
+            "en": "Terrace size matches the plan",
+            "ar": "مساحة الشرفة مطابقة للمخطط"
+          },
+          "metin": {
+            "tr": "Örnek dairede terası metreyle ölçtük; plandaki ölçüyle aynıydı. Otopark girişi henüz bitmedi.",
+            "en": "We measured the terrace in the show flat; it matched the plan. The car park entrance is not finished yet.",
+            "ar": "قسنا الشرفة في الشقة النموذجية فطابقت المخطط. مدخل الموقف لم يكتمل بعد."
+          },
+          "tarih": {
+            "tr": "Eylül 2026",
+            "en": "September 2026",
+            "ar": "سبتمبر 2026"
+          },
+          "kriter": [
+            {
+              "ad": {
+                "tr": "Bilgilendirme",
+                "en": "Updates",
+                "ar": "الإعلام"
+              },
+              "puan": 4
+            },
+            {
+              "ad": {
+                "tr": "Plan",
+                "en": "Layout",
+                "ar": "المخطط"
+              },
+              "puan": 5
+            },
+            {
+              "ad": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "puan": 4
+            },
+            {
+              "ad": {
+                "tr": "Ofis",
+                "en": "Office",
+                "ar": "المكتب"
+              },
+              "puan": 4.5
+            }
+          ]
+        },
+        {
+          "ad": "Pelin Karan",
+          "unvan": {
+            "tr": "A Blok · 3+1 alıcısı",
+            "en": "Block A · 3+1 buyer",
+            "ar": "مشترية في المبنى A · 3+1"
+          },
+          "baslik": {
+            "tr": "Aidat tablosu açık",
+            "en": "An open service-charge table",
+            "ar": "جدول رسوم واضح"
+          },
+          "metin": {
+            "tr": "İlk yılın tahmini aidatını yazılı aldık; ödeme tablosunu da evde inceleyebildik.",
+            "en": "We got the first year’s estimated service charge in writing and could review the payment table at home.",
+            "ar": "حصلنا على الرسوم التقديرية للسنة الأولى كتابيًا واستطعنا دراسة جدول الدفع في البيت."
+          },
+          "tarih": {
+            "tr": "Ağustos 2026",
+            "en": "August 2026",
+            "ar": "أغسطس 2026"
+          },
+          "kriter": [
+            {
+              "ad": {
+                "tr": "Bilgilendirme",
+                "en": "Updates",
+                "ar": "الإعلام"
+              },
+              "puan": 4.5
+            },
+            {
+              "ad": {
+                "tr": "Plan",
+                "en": "Layout",
+                "ar": "المخطط"
+              },
+              "puan": 4
+            },
+            {
+              "ad": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "puan": 5
+            },
+            {
+              "ad": {
+                "tr": "Ofis",
+                "en": "Office",
+                "ar": "المكتب"
+              },
+              "puan": 5
+            }
+          ]
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "metin": "yorum metni — dil sözlüğü (zorunlu)",
+          "ad": "yorumu yapanın adı",
+          "unvan": "görev / unvan (dil sözlüğü)",
+          "firma": "firma adı",
+          "puan": "1–5 yıldız (0/boş → yıldız yok)",
+          "img": "avatar / portre görseli",
+          "logo": "firma logosu (destekleyen yerleşimde)",
+          "baslik": "yorum başlığı (destekleyen yerleşimde)",
+          "tarih": "tarih metni",
+          "kaynak": "kaynak (Google, Instagram …)"
+        }
+      },
+      "id": "bah28x",
+      "path": "yorum-kriter-puan",
+      "local": "body",
+      "index": 15
+    },
+    {
+      "name": "Referans Açılan Panel — yan yana dikey şeritlerden genişleyen proje panelleri",
+      "description": "Masaüstünde yan yana dikey şeritler: kapalı şeritte sıra no ve dikey yazılmış ad, açık panel vurgu zeminde genişler — büyük amblem, sektör · yıl, kısa iş özeti, görüş sahibi ve bağlantı. Tıklayınca ya da üzerine gelince panel açılır; mobilde dikey akordeon. JS yokken tüm paneller açık iki sütunlu ızgaradır. referans-cevir-kart ve referans-perde ayrıntıyı karonun kendi alanında açar, referans-vitrin-secim çip + ayrı sahne kullanır; bu modül satırdaki şeritlerin genişliğini yeniden paylaştırır (esnek büyüme, dikey yazı, aria-expanded tetikler) — yatay açılan panel iskeleti ailede yok. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "view_week",
+      "category": "referans",
+      "subCategory": "expanding-panels",
+      "tags": [
+        "referans",
+        "expanding",
+        "panels",
+        "accordion",
+        "projects",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Bloklar",
+          "en": "Blocks",
+          "ar": "المباني"
+        },
+        "baslik": {
+          "tr": "Dört blok, dört cephe",
+          "en": "Four blocks, four facades",
+          "ar": "أربعة مبانٍ وأربع واجهات"
+        },
+        "metin": {
+          "tr": "Şeride dokunun ya da üzerine gelin; bloğun künyesi açılır. Sayılar kurgusal proje künyesidir; fiyat, müsaitlik ve teslim tarihi satış ofisinden yazılı alınır.",
+          "en": "Tap or hover over a strip to open the block’s profile. Figures are a fictional project profile; prices, availability and handover dates are given in writing by the sales office.",
+          "ar": "المس الشريط أو مرّر المؤشر فوقه لتُفتح بطاقة المبنى. الأرقام بطاقة مشروع افتراضية؛ وتُقدَّم الأسعار والتوفّر وموعد التسليم كتابيًا من مكتب المبيعات."
+        },
+        "sayi": "",
+        "sayiEtiket": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "grayscale": true,
+        "title": "",
+        "description": "",
+        "listeEtiket": {
+          "tr": "Blok listesi",
+          "en": "Block list",
+          "ar": "قائمة المباني"
+        }
+      },
+      "data": [
+        {
+          "ad": {
+            "tr": "A Blok",
+            "en": "Block A",
+            "ar": "المبنى A"
+          },
+          "sektor": {
+            "tr": "6 kat · 48 daire",
+            "en": "6 floors · 48 flats",
+            "ar": "6 طوابق · 48 شقة"
+          },
+          "yil": "2027",
+          "metin": {
+            "tr": "Güney cephe; 2+1 ve 3+1, en üst katta çatı bahçesi.",
+            "en": "South facade; 2+1 and 3+1, with a roof garden on top.",
+            "ar": "واجهة جنوبية؛ 2+1 و3+1 وحديقة على السطح."
+          },
+          "kisi": {
+            "tr": "Planlanan teslim (kurgusal)",
+            "en": "Planned handover (fictional)",
+            "ar": "التسليم المخطَّط (افتراضي)"
+          }
+        },
+        {
+          "ad": {
+            "tr": "B Blok",
+            "en": "Block B",
+            "ar": "المبنى B"
+          },
+          "sektor": {
+            "tr": "6 kat · 56 daire",
+            "en": "6 floors · 56 flats",
+            "ar": "6 طوابق · 56 شقة"
+          },
+          "yil": "2027",
+          "metin": {
+            "tr": "Bahçeye bakan 1+1 ve 2+1; zemin katta bahçe katı daireler.",
+            "en": "1+1 and 2+1 facing the garden; garden-level flats on the ground floor.",
+            "ar": "شقق 1+1 و2+1 تطلّ على الحديقة، وشقق بحديقة في الطابق الأرضي."
+          },
+          "kisi": {
+            "tr": "Planlanan teslim (kurgusal)",
+            "en": "Planned handover (fictional)",
+            "ar": "التسليم المخطَّط (افتراضي)"
+          }
+        },
+        {
+          "ad": {
+            "tr": "C Blok",
+            "en": "Block C",
+            "ar": "المبنى C"
+          },
+          "sektor": {
+            "tr": "7 kat · 60 daire",
+            "en": "7 floors · 60 flats",
+            "ar": "7 طوابق · 60 شقة"
+          },
+          "yil": "2028",
+          "metin": {
+            "tr": "Kademeli cephe en belirgin burada; geniş teraslı 3+1.",
+            "en": "The stepped facade is most visible here; 3+1 with wide terraces.",
+            "ar": "تظهر الواجهة المدرّجة هنا بوضوح؛ شقق 3+1 بشرفات واسعة."
+          },
+          "kisi": {
+            "tr": "Planlanan teslim (kurgusal)",
+            "en": "Planned handover (fictional)",
+            "ar": "التسليم المخطَّط (افتراضي)"
+          }
+        },
+        {
+          "ad": {
+            "tr": "D Blok",
+            "en": "Block D",
+            "ar": "المبنى D"
+          },
+          "sektor": {
+            "tr": "7 kat · 48 daire",
+            "en": "7 floors · 48 flats",
+            "ar": "7 طوابق · 48 شقة"
+          },
+          "yil": "2028",
+          "metin": {
+            "tr": "Deniz yönünde 4+1 dubleksler ve ortak spor salonu.",
+            "en": "Sea-facing 4+1 duplexes and a shared gym.",
+            "ar": "شقق دوبلكس 4+1 نحو البحر وصالة رياضة مشتركة."
+          },
+          "kisi": {
+            "tr": "Planlanan teslim (kurgusal)",
+            "en": "Planned handover (fictional)",
+            "ar": "التسليم المخطَّط (افتراضي)"
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "ad": "marka / kurum adı (dil sözlüğü ya da düz metin; logo alt yazısı)",
+          "img": "logo görseli yolu (boşsa yazı logosu)",
+          "url": "iç/dış bağlantı (dış → yeni sekme)",
+          "sektor": "dil sözlüğü (sektör / iş alanı)",
+          "metin": "dil sözlüğü (kısa görüş / iş özeti)",
+          "kisi": "dil sözlüğü (görüş sahibi)",
+          "yil": "birlikte çalışma yılı (düz metin)"
+        }
+      },
+      "id": "1016vz",
+      "path": "referans-acilan-panel",
+      "local": "body",
+      "index": 16
+    },
+    {
+      "name": "SSS Dikey Yol — kilometre taşlarına dizilmiş sorular",
+      "description": "Sorular `kategori` alanına göre yol duraklarına ayrılır (ör. 1. trimester · 2. trimester · doğum): başlangıç yanında dikey bir yol çizgisi, her durakta numaralı büyük daire, durak adı ve soru sayısı; durağın soruları çizgiye bağlı noktalarla açılır kartlar (yerel <details>). Çizgi sayfa kaydıkça vurgu renginde dolar. Başlık yapışkan yan sütunda. sss-ziyaret-asama aşamaları yatay sekmelerle tek tek gösterir, sss-kategori-blok grupları ayrı bloklarda yapışkan başlıkla dizer; bu modülde tüm duraklar tek dikey yolda sırayla görünür — yol çizgisi + durak daireleri + soru noktaları, kaydırmayla dolan ilerleme çizgisi (süreç sırası önemli SSS). Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Açılırlar yerel <details> (JS'siz). Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "category": "faq",
+      "subCategory": "milestone-path",
+      "tags": [
+        "faq",
+        "milestones",
+        "path",
+        "grouped",
+        "details",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Sorular",
+          "en": "Questions",
+          "ar": "الأسئلة"
+        },
+        "baslik": {
+          "tr": "Satın alma yolunda sorulanlar",
+          "en": "Questions along the way to buying",
+          "ar": "أسئلة على طريق الشراء"
+        },
+        "metin": {
+          "tr": "Sayılar kurgusal proje künyesidir; fiyat, müsaitlik ve teslim tarihi satış ofisinden yazılı alınır.",
+          "en": "Figures are a fictional project profile; prices, availability and handover dates are given in writing by the sales office.",
+          "ar": "الأرقام بطاقة مشروع افتراضية؛ وتُقدَّم الأسعار والتوفّر وموعد التسليم كتابيًا من مكتب المبيعات."
+        },
+        "tekAcik": "",
+        "ilkAcik": "",
+        "cta_ad": {
+          "tr": "Satış ofisi",
+          "en": "Sales office",
+          "ar": "مكتب المبيعات"
+        },
+        "cta_url": "iletisim",
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "badge": "",
+        "title": "",
+        "description": ""
+      },
+      "data": [
+        {
+          "kategori": {
+            "tr": "Proje",
+            "en": "Project",
+            "ar": "المشروع"
+          },
+          "ikon": "event",
+          "soru": {
+            "tr": "Teslim tarihi kesin mi?",
+            "en": "Is the handover date fixed?",
+            "ar": "هل موعد التسليم نهائي؟"
+          },
+          "cevap": {
+            "tr": "Takvimdeki tarihler plandır; kesin teslim tarihi satış sözleşmesine yazılır ve iskân sürecine bağlıdır.",
+            "en": "Dates on the timeline are a plan; the firm handover date is written into the sales contract and depends on the occupancy permit.",
+            "ar": "التواريخ في الجدول خطة؛ ويُكتب موعد التسليم النهائي في عقد البيع ويرتبط بإجراءات رخصة السكن."
+          }
+        },
+        {
+          "kategori": {
+            "tr": "Proje",
+            "en": "Project",
+            "ar": "المشروع"
+          },
+          "ikon": "door_open",
+          "soru": {
+            "tr": "Örnek daireyi görebilir miyim?",
+            "en": "Can I see the show flat?",
+            "ar": "هل يمكنني رؤية الشقة النموذجية؟"
+          },
+          "cevap": {
+            "tr": "Evet. Satış ofisinin üst katındaki 2+1 örnek daire her gün açıktır; randevu bekleme süresini kısaltır.",
+            "en": "Yes. The 2+1 show flat above the sales office is open daily; an appointment shortens the wait.",
+            "ar": "نعم. الشقة النموذجية 2+1 فوق مكتب المبيعات مفتوحة يوميًا، والموعد المسبق يختصر الانتظار."
+          }
+        },
+        {
+          "kategori": {
+            "tr": "Ödeme",
+            "en": "Payment",
+            "ar": "الدفع"
+          },
+          "ikon": "payments",
+          "soru": {
+            "tr": "Ödeme planı nasıl?",
+            "en": "What is the payment plan?",
+            "ar": "ما خطة الدفع؟"
+          },
+          "cevap": {
+            "tr": "Peşinat ve taksit seçenekleri dairenin katına ve tipine göre değişir; güncel tablo yalnız satış ofisinden yazılı verilir. Kredi onayı bankaya aittir.",
+            "en": "Down payment and instalment options vary by floor and type; the current table is given only in writing by the sales office. Loan approval is up to the bank.",
+            "ar": "تختلف الدفعة الأولى والأقساط حسب الطابق والنوع؛ ويُقدَّم الجدول المحدَّث كتابيًا من مكتب المبيعات فقط. وموافقة القرض تعود إلى البنك."
+          }
+        },
+        {
+          "kategori": {
+            "tr": "Daire",
+            "en": "Flat",
+            "ar": "الشقة"
+          },
+          "ikon": "deck",
+          "soru": {
+            "tr": "Teras ortak alan mı?",
+            "en": "Is the terrace a common area?",
+            "ar": "هل الشرفة مساحة مشتركة؟"
+          },
+          "cevap": {
+            "tr": "Hayır. Her dairenin terası bağımsız bölümün eklentisidir; çatı bahçesi ise ortak alandır.",
+            "en": "No. Each flat’s terrace is an annex of the unit; the roof garden is a common area.",
+            "ar": "لا. شرفة كل شقة ملحق بالوحدة المستقلة، أما حديقة السطح فمساحة مشتركة."
+          }
+        },
+        {
+          "kategori": {
+            "tr": "Daire",
+            "en": "Flat",
+            "ar": "الشقة"
+          },
+          "ikon": "receipt_long",
+          "soru": {
+            "tr": "Aidat ne kadar?",
+            "en": "How much are the service charges?",
+            "ar": "كم رسوم الخدمات؟"
+          },
+          "cevap": {
+            "tr": "İlk yıl için tahmini aidat tablosu satış ofisinde paylaşılır; kesin tutarı yönetim planı ve kat malikleri kurulu belirler.",
+            "en": "An estimated first-year service charge table is shared at the sales office; the final amount is set by the management plan and the owners’ board.",
+            "ar": "يُعرض جدول تقديري لرسوم الخدمات للسنة الأولى في مكتب المبيعات، ويحدّد المبلغ النهائي نظام الإدارة ومجلس الملّاك."
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "soru": "dil sözlüğü (zorunlu; eski `question`)",
+          "cevap": "dil sözlüğü (eski `answer`)",
+          "kategori": "grup adı, dil sözlüğü (gruplayan yerleşimde)",
+          "ikon": "Material Symbols adı (destekleyen yerleşimde)",
+          "url": "«Devamı» bağlantısı (iç slug ya da tam URL)"
+        }
+      },
+      "id": "d4nwod",
+      "path": "sss-dikey-yol",
+      "local": "body",
+      "index": 17
+    },
+    {
+      "name": "İletişim Harita Perdesi — tıklayınca yüklenen harita (gizlilik perdesi) + kanal satırları",
+      "description": "Sağda bulanık sokak deseni ve sallanan iğneyle «harita perdesi»: adres alt şeritte yazılı; yuvarlak harita düğmesine basılınca Google Maps gömmesi (desing haritaGomme / mapEmbed, yoksa adresten embed) o anda kurulur, perde kalkar. Öncesinde üçüncü taraf isteği yok. Altında yol tarifi bağlantısı; solda başlık ve öteki kanallar çizgili satırlarda. iletisim-harita-ust / -yan / form-harita haritayı (ya da yer tutucuyu) sayfa açılır açılmaz basar; bu modül haritayı RIZA İLE yükler: iframe JS'le yalnız tıklamada kurulur (haritaPerde), JS yoksa düğme gizli kalır ve yalnız dış bağlantı çalışır. Kanallar desing'den (adres · telefon · WhatsApp · e-posta · saat) + data satırları; etiketler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Kanal yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "map",
+      "category": "contact",
+      "subCategory": "map-consent",
+      "tags": [
+        "contact",
+        "map",
+        "privacy",
+        "consent",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Satış ofisi",
+          "en": "Sales office",
+          "ar": "مكتب المبيعات"
+        },
+        "baslik": {
+          "tr": "Ofis şantiyenin girişinde",
+          "en": "The office is at the site entrance",
+          "ar": "المكتب عند مدخل الموقع"
+        },
+        "metin": {
+          "tr": "Örnek daire ofisin üst katında. Harita yalnız siz düğmeye bastığınızda yüklenir.",
+          "en": "The show flat is above the office. The map loads only when you press the button.",
+          "ar": "الشقة النموذجية فوق المكتب. لا تُحمَّل الخريطة إلا عند الضغط على الزر."
+        },
+        "adres": {
+          "tr": "Hurma Mahallesi, Akdeniz Bulvarı No: 214, Konyaaltı, Antalya (kurgusal adres)",
+          "en": "214 Akdeniz Boulevard, Hurma, Konyaalti, Antalya (fictional address)",
+          "ar": "جادة أكدنيز رقم 214، حي خورما، كونيالتي، أنطاليا (عنوان افتراضي)"
+        },
+        "telefon": "+90 242 055 80 80",
+        "eposta": "ofis@kademeteras.example",
+        "whatsapp": "902420558080",
+        "saat": {
+          "tr": "Her gün 09:30 – 19:00 (satış ofisi)",
+          "en": "Daily 09:30 – 19:00 (sales office)",
+          "ar": "يوميًا 09:30 – 19:00 (مكتب المبيعات)"
+        },
+        "haritaUrl": "",
+        "haritaGomme": "",
+        "waMesaj": {
+          "tr": "Merhaba Kademe Teras, satış ofisi için randevu istiyorum.",
+          "en": "Hello Kademe Terrace, I would like an appointment at the sales office.",
+          "ar": "مرحبًا كاديمه تراس، أودّ موعدًا في مكتب المبيعات."
+        },
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "gonderim": "mailto",
+        "address": {
+          "tr": "Hurma Mahallesi, Akdeniz Bulvarı No: 214, Konyaaltı, Antalya (kurgusal adres)",
+          "en": "214 Akdeniz Boulevard, Hurma, Konyaalti, Antalya (fictional address)",
+          "ar": "جادة أكدنيز رقم 214، حي خورما، كونيالتي، أنطاليا (عنوان افتراضي)"
+        },
+        "phone": "+90 242 055 80 80",
+        "email": "ofis@kademeteras.example",
+        "hours": {
+          "tr": "Her gün 09:30 – 19:00 (satış ofisi)",
+          "en": "Daily 09:30 – 19:00 (sales office)",
+          "ar": "يوميًا 09:30 – 19:00 (مكتب المبيعات)"
+        },
+        "social": [],
+        "title": "",
+        "description": "",
+        "panelTitle": {
+          "tr": "Kademe Teras",
+          "en": "Kademe Teras",
+          "ar": "Kademe Teras"
+        },
+        "panelText": {
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
+          "en": "Images are representative; this is a setup demo.",
+          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+        },
+        "formTitle": {
+          "tr": "Teklif formu",
+          "en": "Quote form",
+          "ar": "نموذج الطلب"
+        },
+        "subjects": [
+          {
+            "id": "a",
+            "name": {
+              "tr": "Yeni talep",
+              "en": "New request",
+              "ar": "طلب جديد"
+            }
+          },
+          {
+            "id": "b",
+            "name": {
+              "tr": "Ölçü ve keşif",
+              "en": "Measure and survey",
+              "ar": "قياس واستقصاء"
+            }
+          },
+          {
+            "id": "c",
+            "name": {
+              "tr": "Teknik soru",
+              "en": "Technical question",
+              "ar": "سؤال فني"
+            }
+          },
+          {
+            "id": "d",
+            "name": {
+              "tr": "Diğer",
+              "en": "Other",
+              "ar": "أخرى"
+            }
+          }
+        ],
+        "kvkkText": {
+          "tr": "Kişisel verilerimin bu talebin yanıtlanması amacıyla işlenmesine ilişkin aydınlatma metnini okudum.",
+          "en": "I have read the privacy notice on how my personal data is processed to answer this request.",
+          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على هذا الطلب."
+        },
+        "kvkkLinkText": {
+          "tr": "Aydınlatma metni",
+          "en": "Privacy notice",
+          "ar": "إشعار الخصوصية"
+        },
+        "kvkkHref": "kisiselveriler"
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ikon": "Material Symbols adı (kanal türü ikondan da anlaşılır: mail · call · location_on · schedule)",
+          "deger": "dil sözlüğü (görünen değer, zorunlu; eski `text`)",
+          "url": "bağlantı (boşsa e-posta/telefon/haritadan türetilir)",
+          "baslik": "dil sözlüğü (kanal etiketi)"
+        }
+      },
+      "id": "k971h8",
+      "path": "iletisim-harita-perde",
+      "local": "body",
+      "index": 18
+    },
+    {
+      "name": "Alt Etiketli Çizgi — başlıklar çizginin üstüne oturan iki sütunlu föy",
+      "description": "Üstte logo, tanıtım ve düğme; altında iki sütunda bilgi grupları: her grubun başlığı ince yatay çizginin üstüne (fieldset legend gibi) oturur, çizginin başında kısa vurgu çubuğu hover'da çizgi boyunca uzar; iletişim tam genişlik. Altta telif, yasal, dil, başa dön. Başlık ile ayraç tek öğe: etiket çizgiyi keser, vurgu çubuğu hover'da çizgiyi doldurur — mimari pafta/teknik föy zarafeti, satır tablosundan (spek) farklı olarak başlık yukarıda ve iki sütunda. Sayfalar site sayfalarından, iletişim desing → site ayarı, sosyal wmSocialBar, dil seçici {{langbar}}. Metinler dil sözlüğü / lang.json; renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
+      "version": "1.0.0",
+      "icon": "label",
+      "category": "footer",
+      "subCategory": "labelled-rules",
+      "tags": [
+        "footer",
+        "legend",
+        "rules",
+        "architectural",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(48px, 6vw, 80px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "hakkinda": {
+          "tr": "Konyaaltı’nda teraslı konut projesinin kurgusal satış ofisi. İçerik kurgusaldır; görseller temsilîdir.",
+          "en": "The fictional sales office of a terraced housing project in Konyaalti. Content is fictional; images are representative.",
+          "ar": "مكتب مبيعات افتراضي لمشروع سكني بشرفات في كونيالتي. المحتوى افتراضي والصور تمثيلية."
+        },
+        "tel": "+90 242 055 80 80",
+        "eposta": "ofis@kademeteras.example",
+        "adres": {
+          "tr": "Hurma Mahallesi, Akdeniz Bulvarı No: 214, Konyaaltı, Antalya (kurgusal adres)",
+          "en": "214 Akdeniz Boulevard, Hurma, Konyaalti, Antalya (fictional address)",
+          "ar": "جادة أكدنيز رقم 214، حي خورما، كونيالتي، أنطاليا (عنوان افتراضي)"
+        },
+        "cta_ad": {
+          "tr": "Satış ofisi",
+          "en": "Sales office",
+          "ar": "مكتب المبيعات"
+        },
+        "cta_url": "iletisim",
+        "rightsText": {
+          "tr": "Tüm hakları saklıdır · Görseller temsilîdir.",
+          "en": "All rights reserved · Images are representative.",
+          "ar": "جميع الحقوق محفوظة · الصور تمثيلية."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "logoH": "48px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "showlang": true,
+        "maxpages": 8,
+        "nlShow": false,
+        "nlGonderim": "mailto",
+        "about": {
+          "tr": "Kademe Teras demo temadır; içerik kurgusaldır, görseller temsilîdir.",
+          "en": "Kademe Terrace is a demo theme; content is fictional and images are representative.",
+          "ar": "كاديمه تراس قالب تجريبي؛ المحتوى افتراضي والصور تمثيلية."
+        },
+        "address": {
+          "tr": "Hurma Mahallesi, Akdeniz Bulvarı No: 214, Konyaaltı, Antalya (kurgusal adres)",
+          "en": "214 Akdeniz Boulevard, Hurma, Konyaalti, Antalya (fictional address)",
+          "ar": "جادة أكدنيز رقم 214، حي خورما، كونيالتي، أنطاليا (عنوان افتراضي)"
+        },
+        "phone": "+90 242 055 80 80",
+        "email": "ofis@kademeteras.example",
+        "social": [],
+        "legal": [
+          {
+            "name": {
+              "tr": "KVKK",
+              "en": "Privacy (KVKK)",
+              "ar": "حماية البيانات"
+            },
+            "href": "kisiselveriler"
+          },
+          {
+            "name": {
+              "tr": "Gizlilik",
+              "en": "Privacy policy",
+              "ar": "سياسة الخصوصية"
+            },
+            "href": "gizlilikpolitikasi"
+          },
+          {
+            "name": {
+              "tr": "Yasal uyarı",
+              "en": "Legal notice",
+              "ar": "إشعار قانوني"
+            },
+            "href": "yasaluyari"
+          }
+        ],
+        "nlTitle": "",
+        "nlText": "",
+        "nlKvkk": {
+          "tr": "E-postanız yalnızca duyuru göndermek için kullanılır; dilediğiniz an listeden çıkabilirsiniz.",
+          "en": "Your e-mail is used only to send announcements; you can leave the list at any time.",
+          "ar": "يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت."
+        },
+        "services": [],
+        "hours": [
+          {
+            "days": {
+              "tr": "Her gün",
+              "en": "Daily",
+              "ar": "يوميًا"
+            },
+            "time": "09:30 – 19:00"
+          }
+        ]
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "hakkinda": "kısa tanıtım (dil sözlüğü; yoksa setting.description)",
+          "tel": "telefon (yoksa setting.phone)",
+          "eposta": "e-posta (yoksa setting.email)",
+          "adres": "adres (dil sözlüğü; yoksa setting.address)",
+          "services": "bağlantı listesi [{ name, href }] (footer-10)",
+          "hours": "çalışma saatleri [{ days, time }]",
+          "legal": "yasal bağlantılar [{ text, href }]",
+          "social": "sosyal hesaplar [{ ad, url }] (yoksa site ayarı)",
+          "rightsText": "telif satırı (yoksa @all-rights@)",
+          "nlTitle": "bülten başlığı (bülten formu yalnız başlık/metin + alıcı e-posta varken)"
+        }
+      },
+      "id": "vlgwkr",
+      "path": "alt-etiketli-cizgi",
+      "local": "footer",
+      "index": 19
+    },
+    {
+      "name": "Zaman Gantt — yıl ekseninde üst üste binen dönem çubukları",
+      "description": "Her dönem bir satır: solda ikon, başlık ve metin; sağda ortak yıl ekseninde başlangıç–bitiş çubuğu (gerçek yıl oranıyla). Eş zamanlı dönemler üst üste biner, son dönem «sürüyor» olarak açık uçlu solar; yıl ekseni yapışkan, ızgara çizgileri adım adım; çubuklar görünür olunca eksenden uzar. Veride `bitis` (ya da etikette «2009–2014») yoksa dönem bir sonrakinin başlangıcına dek sürer. Mevcut 23 timeline modülü olayları eşit aralıklı nokta/kart/satır olarak dizer; zaman-gantt süreyi ölçekli çizer: ortak yıl ekseni, başlangıç–bitiş çubukları ve eş zamanlı (çakışan) dönemler — proje/üretim planı dili. zaman-kurulus-surgu tek yıl seçtirir, zaman-kronik-tablo yalnız yıl yazar; burada süre ve örtüşme görünür. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "view_timeline",
+      "category": "timeline",
+      "subCategory": "gantt",
+      "tags": [
+        "timeline",
+        "gantt",
+        "duration",
+        "scale",
+        "overlap",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Takvim",
+          "en": "Timeline",
+          "ar": "الجدول الزمني"
+        },
+        "baslik": {
+          "tr": "Şantiye yıl ekseninde",
+          "en": "The site on a timeline",
+          "ar": "الموقع على محور السنوات"
+        },
+        "metin": {
+          "tr": "Çubuklar planlanan dönemlerdir; üst üste binenler aynı anda sürer. Sayılar kurgusal proje künyesidir; fiyat, müsaitlik ve teslim tarihi satış ofisinden yazılı alınır.",
+          "en": "Bars are planned periods; overlapping ones run at the same time. Figures are a fictional project profile; prices, availability and handover dates are given in writing by the sales office.",
+          "ar": "الأشرطة فترات مخطَّطة، والمتداخلة منها تجري في الوقت نفسه. الأرقام بطاقة مشروع افتراضية؛ وتُقدَّم الأسعار والتوفّر وموعد التسليم كتابيًا من مكتب المبيعات."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)"
+      },
+      "data": [
+        {
+          "etiket": "2025",
+          "bitis": "2026",
+          "ikon": "foundation",
+          "baslik": {
+            "tr": "Kazı ve temel",
+            "en": "Excavation and foundations",
+            "ar": "الحفر والأساسات"
+          },
+          "metin": {
+            "tr": "Dört bloğun temeli ve otopark perdesi.",
+            "en": "Foundations of the four blocks and the car park walls.",
+            "ar": "أساسات المباني الأربعة وجدران الموقف."
+          }
+        },
+        {
+          "etiket": "2026",
+          "bitis": "2027",
+          "ikon": "domain",
+          "baslik": {
+            "tr": "A–B kaba inşaat",
+            "en": "Blocks A–B shell",
+            "ar": "هيكل المبنيين A–B"
+          },
+          "metin": {
+            "tr": "Betonarme karkas ve çatı.",
+            "en": "Reinforced concrete frame and roof.",
+            "ar": "الهيكل الخرساني والسقف."
+          }
+        },
+        {
+          "etiket": "2026",
+          "bitis": "2028",
+          "ikon": "domain_add",
+          "baslik": {
+            "tr": "C–D kaba inşaat",
+            "en": "Blocks C–D shell",
+            "ar": "هيكل المبنيين C–D"
+          },
+          "metin": {
+            "tr": "Kademeli teraslar en çok bu bloklarda.",
+            "en": "Most of the stepped terraces are in these blocks.",
+            "ar": "معظم الشرفات المدرّجة في هذين المبنيين."
+          }
+        },
+        {
+          "etiket": "2027",
+          "bitis": "2028",
+          "ikon": "format_paint",
+          "baslik": {
+            "tr": "İnce işler ve peyzaj",
+            "en": "Finishes and landscaping",
+            "ar": "التشطيبات وتنسيق الحدائق"
+          },
+          "metin": {
+            "tr": "Doğrama, mutfak, banyo ve bahçe.",
+            "en": "Joinery, kitchens, bathrooms and the garden.",
+            "ar": "النجارة والمطابخ والحمّامات والحديقة."
+          }
+        },
+        {
+          "etiket": "2028",
+          "ikon": "key",
+          "baslik": {
+            "tr": "Teslimler",
+            "en": "Handovers",
+            "ar": "التسليمات"
+          },
+          "metin": {
+            "tr": "Blok blok, iskân sonrasında (plan).",
+            "en": "Block by block, after the occupancy permit (plan).",
+            "ar": "مبنًى تلو الآخر بعد رخصة السكن (خطة)."
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "etiket": "yıl / tarih / dönem (dil sözlüğü ya da düz metin)",
+          "baslik": "dil sözlüğü (zorunlu)",
+          "metin": "dil sözlüğü",
+          "ikon": "Material Symbols adı",
+          "img": "görsel yolu (destekleyen yerleşimde)",
+          "url": "iç/dış bağlantı"
+        }
+      },
+      "id": "v4coog",
+      "path": "zaman-gantt",
+      "local": "body",
+      "index": 20
+    },
+    {
+      "name": "Süreç Adım Sihirbazı — tek tek ilerleyen adım sayfaları",
+      "description": "Başvuru sihirbazı gibi: üstte numaralı adım pilleri ve dolan ilerleme çubuğu, ortada tek bir büyük adım sayfası (dev numara, etiket, başlık, açıklama, süre; yanında görsel ya da ikon karosu), altta Önceki / Sonraki düğmeleri ve «2 / 4» sayacı. Etkin olmayan sayfalar inert ve gizlidir; yükseklik en uzun sayfaya sabitlenir (zıplama yok). JS yokken tüm adımlar alt alta kart listesi, gezinti gizli. surec-akordeon adımları katlanır satırlara, surec-yatay-ray kaydırılan karta, surec-kart-yigin yapışkan yığına döker; bu modül adımları sihirbaz (stepper) gibi tek tek sayfalar: adım pilleri, önceki/sonraki gezintisi, ilerleme çubuğu ve sayaç — aynı anda tek adım görünür, ailede sayfalama yok. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "linear_scale",
+      "category": "surec",
+      "subCategory": "stepper-wizard",
+      "tags": [
+        "surec",
+        "stepper",
+        "wizard",
+        "pagination",
+        "progress",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Satın alma",
+          "en": "Buying",
+          "ar": "الشراء"
+        },
+        "baslik": {
+          "tr": "Ofisten anahtara beş adım",
+          "en": "Five steps from office to keys",
+          "ar": "خمس خطوات من المكتب إلى المفتاح"
+        },
+        "metin": {
+          "tr": "Adımlar arasında ileri geri gezin; süreler ortalamadır. Sayılar kurgusal proje künyesidir; fiyat, müsaitlik ve teslim tarihi satış ofisinden yazılı alınır.",
+          "en": "Move back and forth between steps; durations are averages. Figures are a fictional project profile; prices, availability and handover dates are given in writing by the sales office.",
+          "ar": "تنقّل بين الخطوات؛ المدد متوسطة. الأرقام بطاقة مشروع افتراضية؛ وتُقدَّم الأسعار والتوفّر وموعد التسليم كتابيًا من مكتب المبيعات."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "adimEtiket": {
+          "tr": "Adım {n}",
+          "en": "Step {n}",
+          "ar": "الخطوة {n}"
+        }
+      },
+      "data": [
+        {
+          "ikon": "storefront",
+          "baslik": {
+            "tr": "Ofis ziyareti",
+            "en": "Office visit",
+            "ar": "زيارة المكتب"
+          },
+          "metin": {
+            "tr": "Maket, kat planları ve örnek daire.",
+            "en": "The model, floor plans and the show flat.",
+            "ar": "المجسّم ومخططات الطوابق والشقة النموذجية."
+          },
+          "sure": {
+            "tr": "1 saat",
+            "en": "1 hour",
+            "ar": "ساعة واحدة"
+          },
+          "img": "/img/emlak-ilan-salon.webp"
+        },
+        {
+          "ikon": "apartment",
+          "baslik": {
+            "tr": "Daire seçimi",
+            "en": "Choosing a flat",
+            "ar": "اختيار الشقة"
+          },
+          "metin": {
+            "tr": "Kat, yön ve teras ölçüsüyle yazılı künye.",
+            "en": "A written profile with floor, orientation and terrace size.",
+            "ar": "بطاقة مكتوبة بالطابق والاتجاه ومساحة الشرفة."
+          },
+          "sure": {
+            "tr": "1 hafta",
+            "en": "1 week",
+            "ar": "أسبوع واحد"
+          },
+          "img": "/img/insaat-kat-plani.webp"
+        },
+        {
+          "ikon": "description",
+          "baslik": {
+            "tr": "Sözleşme",
+            "en": "Contract",
+            "ar": "العقد"
+          },
+          "metin": {
+            "tr": "Ödeme tablosu ve teslim tarihi sözleşmeye yazılır.",
+            "en": "The payment table and handover date go into the contract.",
+            "ar": "يُكتب جدول الدفع وموعد التسليم في العقد."
+          },
+          "sure": {
+            "tr": "1–2 hafta",
+            "en": "1–2 weeks",
+            "ar": "أسبوع إلى أسبوعين"
+          },
+          "img": "/img/insaat-ofis.webp"
+        },
+        {
+          "ikon": "photo_camera",
+          "baslik": {
+            "tr": "Aylık rapor",
+            "en": "Monthly report",
+            "ar": "التقرير الشهري"
+          },
+          "metin": {
+            "tr": "Her ay şantiye fotoğrafları ve ilerleme yüzdesi.",
+            "en": "Site photos and the progress percentage every month.",
+            "ar": "صور الموقع ونسبة التقدّم كل شهر."
+          },
+          "sure": {
+            "tr": "Teslime dek",
+            "en": "Until handover",
+            "ar": "حتى التسليم"
+          },
+          "img": "/img/insaat-ilerleme-3.webp"
+        },
+        {
+          "ikon": "key",
+          "baslik": {
+            "tr": "Teslim",
+            "en": "Handover",
+            "ar": "التسليم"
+          },
+          "metin": {
+            "tr": "Yazılı teslim tutanağı ve eksik listesi.",
+            "en": "A written handover record and a snag list.",
+            "ar": "محضر تسليم مكتوب وقائمة بالملاحظات."
+          },
+          "sure": {
+            "tr": "1 gün",
+            "en": "1 day",
+            "ar": "يوم واحد"
+          },
+          "img": "/img/insaat-ilerleme-4.webp"
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "baslik": "adım adı — dil sözlüğü (zorunlu)",
+          "metin": "adımın açıklaması — dil sözlüğü",
+          "ikon": "Material Symbols adı",
+          "sure": "süre / takvim (ör. «1 hafta») — dil sözlüğü",
+          "no": "elle numara (yoksa 01, 02 …)",
+          "img": "görsel yolu (destekleyen yerleşimde)",
+          "url": "iç/dış bağlantı"
+        }
+      },
+      "id": "ifth2s",
+      "path": "surec-adim-sihirbaz",
+      "local": "body",
+      "index": 21
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Kademe Teras",
+  "short_name": "Kademe Teras",
+  "description": "Kademe Teras Konutları: Konyaaltı’nda teraslı konut projesi — rakamlarla proje künyesi, yıl ekseninde inşaat takvimi, puanlı alıcı yorumları ve adım adım satın alma süreci. Demo site; içerik kurgusaldır.",
+  "start_url": "/tr/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4FC2A2",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
