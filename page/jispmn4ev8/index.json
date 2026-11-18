@@ -3,17 +3,23 @@
   "name": {
     "tr": "SSS",
     "en": "FAQ",
-    "ar": "الأسئلة"
+    "ar": "الأسئلة",
+    "de": "FAQ",
+    "ru": "FAQ"
   },
   "description": {
     "tr": "Teslim, ödeme ve aidat soruları.",
     "en": "Questions on handover, payment and service charges.",
-    "ar": "أسئلة عن التسليم والدفع والرسوم."
+    "ar": "أسئلة عن التسليم والدفع والرسوم.",
+    "de": "Fragen zu Lieferung, Zahlung und Beiträgen.",
+    "ru": "Вопросы о доставке, оплате и взносах."
   },
   "keyword": {
     "tr": "sss, soru cevap",
     "en": "faq, questions",
-    "ar": "أسئلة وأجوبة"
+    "ar": "أسئلة وأجوبة",
+    "de": "FAQ, Fragen und Antworten",
+    "ru": "FAQ, вопросы и ответы"
   },
   "path": "sorular",
   "icon": "help",
@@ -32,7 +38,9 @@
   "title": {
     "tr": "SSS",
     "en": "FAQ",
-    "ar": "الأسئلة"
+    "ar": "الأسئلة",
+    "de": "FAQ",
+    "ru": "FAQ"
   },
   "date": "2026-11-16T20:28:31.627Z",
   "update": "2026-11-16T20:33:41.664Z"

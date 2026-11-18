@@ -2,7 +2,9 @@
   "name": {
     "tr": "Ofis",
     "en": "Office",
-    "ar": "المكتب"
+    "ar": "المكتب",
+    "de": "Büro",
+    "ru": "Офис"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Satış ofisi ekibi ve süreç.",
     "en": "The sales office team and process.",
-    "ar": "فريق مكتب المبيعات والعملية."
+    "ar": "فريق مكتب المبيعات والعملية.",
+    "de": "Team und Prozess der Vertriebsabteilung.",
+    "ru": "Команда и процесс отдела продаж."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "Ofis",
     "en": "Office",
-    "ar": "المكتب"
+    "ar": "المكتب",
+    "de": "Büro",
+    "ru": "Офис"
   },
   "keyword": {
     "tr": "hakkımızda",
     "en": "about",
-    "ar": "من نحن"
+    "ar": "من نحن",
+    "de": "Über uns",
+    "ru": "О нас"
   },
   "text": {},
   "update": "2026-11-16T20:33:41.660Z",

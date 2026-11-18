@@ -3,17 +3,23 @@
   "name": {
     "tr": "Vizyon",
     "en": "Vision",
-    "ar": "الرؤية"
+    "ar": "الرؤية",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "description": {
     "tr": "Vizyonumuz",
     "en": "Our vision",
-    "ar": "رؤيتنا"
+    "ar": "رؤيتنا",
+    "de": "Unsere Vision",
+    "ru": "Наше видение"
   },
   "keyword": {
     "tr": "Vizyon",
     "en": "vision, our vision, goals",
-    "ar": "الرؤية, رؤيتنا, الأهداف"
+    "ar": "الرؤية, رؤيتنا, الأهداف",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "path": "vizyon",
   "icon": "visibility",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Vizyonumuz</h2>\n<p>Alıcının her ay şantiyeyi fotoğrafla izleyebildiği konut projeleri yapmak.</p>",
     "en": "<h2>Our vision</h2>\n<p>To build housing projects whose buyers can follow the site in photos every month.</p>",
-    "ar": "<h2>رؤيتنا</h2>\n<p>أن نبني مشاريع سكنية يتابع مشتروها الموقع بالصور كل شهر.</p>"
+    "ar": "<h2>رؤيتنا</h2>\n<p>أن نبني مشاريع سكنية يتابع مشتروها الموقع بالصور كل شهر.</p>",
+    "de": "<h2>Unsere Vision</h2>\n<p>Wohnprojekte zu bauen, bei denen der Käufer die Baustelle jeden Monat per Foto verfolgen kann.</p>",
+    "ru": "<h2>Наше видение</h2>\n<p>Создавать жилые проекты, за стройкой которых покупатель может следить по фотографиям каждый месяц.</p>"
   },
   "title": {
     "tr": "Vizyon",
     "en": "Vision",
-    "ar": "الرؤية"
+    "ar": "الرؤية",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "date": "2026-11-16T20:28:31.457Z",
   "update": "2026-11-16T20:33:41.682Z",

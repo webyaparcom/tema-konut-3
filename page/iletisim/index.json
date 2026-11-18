@@ -2,7 +2,9 @@
   "name": {
     "tr": "İletişim",
     "en": "Contact",
-    "ar": "اتصل بنا"
+    "ar": "اتصل بنا",
+    "de": "Kontakt",
+    "ru": "Контакты"
   },
   "status": "play",
   "category": "",
@@ -22,7 +24,9 @@
   "description": {
     "tr": "Satış ofisi adresi, harita ve saatler.",
     "en": "Sales office address, map and hours.",
-    "ar": "عنوان مكتب المبيعات والخريطة والساعات."
+    "ar": "عنوان مكتب المبيعات والخريطة والساعات.",
+    "de": "Adresse, Karte und Öffnungszeiten der Verkaufsniederlassung.",
+    "ru": "Адрес, карта и часы работы отдела продаж."
   },
   "spot": {
     "tr": "",
@@ -33,12 +37,16 @@
   "title": {
     "tr": "İletişim",
     "en": "Contact",
-    "ar": "اتصل بنا"
+    "ar": "اتصل بنا",
+    "de": "Kontakt",
+    "ru": "Контакты"
   },
   "keyword": {
     "tr": "iletişim",
     "en": "contact",
-    "ar": "اتصال"
+    "ar": "اتصال",
+    "de": "Kontakt",
+    "ru": "контакты"
   },
   "text": {},
   "update": "2026-11-16T20:33:41.674Z",
