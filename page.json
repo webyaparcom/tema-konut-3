@@ -5,12 +5,16 @@
       "name": {
         "tr": "Proje",
         "en": "Project",
-        "ar": "المشروع"
+        "ar": "المشروع",
+        "de": "Projekt",
+        "ru": "Проект"
       },
       "description": {
         "tr": "İnşaat takvimi, bloklar ve satın alma adımları.",
         "en": "Construction timeline, blocks and buying steps.",
-        "ar": "جدول البناء والمباني وخطوات الشراء."
+        "ar": "جدول البناء والمباني وخطوات الشراء.",
+        "de": "Bauterminplan, Blöcke und Kaufschritte.",
+        "ru": "График строительства, блоки и этапы покупки."
       },
       "path": "hizmetler",
       "icon": "apartment",
@@ -31,7 +35,9 @@
       "name": {
         "tr": "Ofis",
         "en": "Office",
-        "ar": "المكتب"
+        "ar": "المكتب",
+        "de": "Büro",
+        "ru": "Офис"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -52,7 +58,9 @@
       "description": {
         "tr": "Satış ofisi ekibi ve süreç.",
         "en": "The sales office team and process.",
-        "ar": "فريق مكتب المبيعات والعملية."
+        "ar": "فريق مكتب المبيعات والعملية.",
+        "de": "Team und Prozess der Vertriebsabteilung.",
+        "ru": "Команда и процесс отдела продаж."
       }
     },
     {
@@ -60,12 +68,16 @@
       "name": {
         "tr": "SSS",
         "en": "FAQ",
-        "ar": "الأسئلة"
+        "ar": "الأسئلة",
+        "de": "FAQ",
+        "ru": "FAQ"
       },
       "description": {
         "tr": "Teslim, ödeme ve aidat soruları.",
         "en": "Questions on handover, payment and service charges.",
-        "ar": "أسئلة عن التسليم والدفع والرسوم."
+        "ar": "أسئلة عن التسليم والدفع والرسوم.",
+        "de": "Fragen zu Lieferung, Zahlung und Beiträgen.",
+        "ru": "Вопросы о доставке, оплате и взносах."
       },
       "path": "sorular",
       "icon": "help",
@@ -85,12 +97,16 @@
       "name": {
         "tr": "Kanıtlar",
         "en": "Evidence",
-        "ar": "الشواهد"
+        "ar": "الشواهد",
+        "de": "Nachweise",
+        "ru": "Доказательства"
       },
       "description": {
         "tr": "Proje rakamları ve puanlı alıcı yorumları (kurgusal).",
         "en": "Project figures and rated buyer reviews (fictional).",
-        "ar": "أرقام المشروع وتقييمات المشترين (افتراضية)."
+        "ar": "أرقام المشروع وتقييمات المشترين (افتراضية).",
+        "de": "Projektzahlen und bewertete Käuferstimmen (fiktiv).",
+        "ru": "Цифры по проектам и оценённые отзывы покупателей (вымышленно)."
       },
       "path": "referanslar",
       "icon": "insights",
@@ -110,7 +126,9 @@
       "name": {
         "tr": "İletişim",
         "en": "Contact",
-        "ar": "اتصل بنا"
+        "ar": "اتصل بنا",
+        "de": "Kontakt",
+        "ru": "Контакты"
       },
       "status": "play",
       "id": "iletisim",
@@ -130,7 +148,9 @@
       "description": {
         "tr": "Satış ofisi adresi, harita ve saatler.",
         "en": "Sales office address, map and hours.",
-        "ar": "عنوان مكتب المبيعات والخريطة والساعات."
+        "ar": "عنوان مكتب المبيعات والخريطة والساعات.",
+        "de": "Adresse, Karte und Öffnungszeiten der Verkaufsniederlassung.",
+        "ru": "Адрес, карта и часы работы отдела продаж."
       }
     }
   ],

@@ -3,17 +3,23 @@
   "name": {
     "tr": "Kanıtlar",
     "en": "Evidence",
-    "ar": "الشواهد"
+    "ar": "الشواهد",
+    "de": "Nachweise",
+    "ru": "Доказательства"
   },
   "description": {
     "tr": "Proje rakamları ve puanlı alıcı yorumları (kurgusal).",
     "en": "Project figures and rated buyer reviews (fictional).",
-    "ar": "أرقام المشروع وتقييمات المشترين (افتراضية)."
+    "ar": "أرقام المشروع وتقييمات المشترين (افتراضية).",
+    "de": "Projektzahlen und bewertete Käuferstimmen (fiktiv).",
+    "ru": "Цифры по проектам и оценённые отзывы покупателей (вымышленно)."
   },
   "keyword": {
     "tr": "rakam, yorum",
     "en": "figures, reviews",
-    "ar": "أرقام، تقييمات"
+    "ar": "أرقام، تقييمات",
+    "de": "Zahlen, Bewertungen",
+    "ru": "цифры, отзывы"
   },
   "path": "referanslar",
   "icon": "insights",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Kanıtlar",
     "en": "Evidence",
-    "ar": "الشواهد"
+    "ar": "الشواهد",
+    "de": "Nachweise",
+    "ru": "Доказательства"
   },
   "date": "2026-11-16T20:28:31.635Z",
   "update": "2026-11-16T20:33:41.669Z"

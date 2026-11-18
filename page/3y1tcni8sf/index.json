@@ -3,17 +3,23 @@
   "name": {
     "tr": "Proje",
     "en": "Project",
-    "ar": "المشروع"
+    "ar": "المشروع",
+    "de": "Projekt",
+    "ru": "Проект"
   },
   "description": {
     "tr": "İnşaat takvimi, bloklar ve satın alma adımları.",
     "en": "Construction timeline, blocks and buying steps.",
-    "ar": "جدول البناء والمباني وخطوات الشراء."
+    "ar": "جدول البناء والمباني وخطوات الشراء.",
+    "de": "Bauterminplan, Blöcke und Kaufschritte.",
+    "ru": "График строительства, блоки и этапы покупки."
   },
   "keyword": {
     "tr": "Rakamlar",
     "en": "Figures",
-    "ar": "الأرقام"
+    "ar": "الأرقام",
+    "de": "Zahlen",
+    "ru": "Цифры"
   },
   "path": "hizmetler",
   "icon": "apartment",
@@ -34,7 +40,9 @@
   "title": {
     "tr": "Proje",
     "en": "Project",
-    "ar": "المشروع"
+    "ar": "المشروع",
+    "de": "Projekt",
+    "ru": "Проект"
   },
   "date": "2026-11-16T20:28:31.614Z",
   "update": "2026-11-16T20:33:41.656Z"

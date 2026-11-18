@@ -3,17 +3,23 @@
   "name": {
     "tr": "Kalite Politikamız",
     "en": "Quality Policy",
-    "ar": "سياسة الجودة"
+    "ar": "سياسة الجودة",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "description": {
     "tr": "Kalite politikamız",
     "en": "Our quality policy",
-    "ar": "سياسة الجودة لدينا"
+    "ar": "سياسة الجودة لدينا",
+    "de": "Unsere Qualitätspolitik",
+    "ru": "Наша политика качества"
   },
   "keyword": {
     "tr": "Kalite Politikamız",
     "en": "quality policy, quality, continuous improvement",
-    "ar": "سياسة الجودة, الجودة, التحسين المستمر"
+    "ar": "سياسة الجودة, الجودة, التحسين المستمر",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "path": "kalitepolitikamiz",
   "icon": "verified",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Kalite Politikamız</h2>\n<p>Aylık fotoğraflı ilerleme raporu, yazılı teslim tutanağı ve açık aidat tablosu.</p>",
     "en": "<h2>Our quality policy</h2>\n<p>A monthly photo progress report, a written handover record and an open service-charge table.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>تقرير تقدّم شهري مصوّر ومحضر تسليم مكتوب وجدول رسوم خدمات واضح.</p>"
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>تقرير تقدّم شهري مصوّر ومحضر تسليم مكتوب وجدول رسوم خدمات واضح.</p>",
+    "de": "<h2>Unsere Qualitätspolitik</h2>\n<p>Monatlicher Fortschrittsbericht mit Fotos, schriftliche Übergabeurkunde und transparente Gebührenübersicht.</p>",
+    "ru": "<h2>Наша политика качества</h2>\n<p>Ежемесячный отчет о ходе работ с фотографиями, письменный акт передачи и прозрачная таблица сборов.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
     "en": "Quality Policy",
-    "ar": "سياسة الجودة"
+    "ar": "سياسة الجودة",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "date": "2026-11-16T20:28:31.457Z",
   "update": "2026-11-16T20:33:41.684Z",
